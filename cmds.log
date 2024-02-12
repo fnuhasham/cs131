@@ -1,0 +1,13 @@
+    1  pwd
+    2  mkdir temp
+    3  ls 
+    4  ls
+    5  wget www.github.com
+    6  ls
+    7  mkdir Worksheet1
+    8  ls
+    9  cd worksheet1
+   10  cd Worksheet1
+   11  ls
+   12  git init
+   13  history > cmds.log
