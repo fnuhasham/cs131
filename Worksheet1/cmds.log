@@ -1,0 +1,144 @@
+    1  pwd
+    2  mkdir temp
+    3  ls 
+    4  ls
+    5  wget www.github.com
+    6  ls
+    7  mkdir Worksheet1
+    8  ls
+    9  cd worksheet1
+   10  cd Worksheet1
+   11  ls
+   12  git init
+   13  history > cmds.log
+   14  clear
+   15  ls
+   16  git init
+   17  git remote add origin <https://github.com/fnuhasham/cs131.git>
+   18  git <https://github.com/fnuhasham/cs131.git>
+   19  clear
+   20  passwd
+   21  wget www.github.com
+   22  ls
+   23  git init
+   24  rmdir
+   25  rmdir Worksheet1
+   26  cd Worksheet1
+   27  ls
+   28  vi cmds.log
+   29  cd ..
+   30  vi saad
+   31  ls
+   32  vi saad
+   33  rm saad
+   34  ls
+   35  history > hasham
+   36  ls
+   37  vi hasham
+   38  rm hasham
+   39  ls
+   40  history > usama 
+   41  ls
+   42  vi usama 
+   43  vi usama
+   44  ls
+   45  rm usama
+   46  cd workshhet1
+   47  cd Worksheet1
+   48  ls
+   49  vi cmds.log
+   50  git init
+   51  git remote add origin https://github.com/fnuhasham/cs131.git
+   52  git add cmds.log
+   53  git commit -m "worksheet1"
+   54  clear
+   55  cd.. 
+   56  cd ..
+   57  clear
+   58  cd Workshhet1
+   59  cd Worksheet1
+   60  cd ..
+   61  clear
+   62  ls
+   63  clear
+   64  ls
+   65  ls Worksheet1
+   66  vi lol
+   67  r lol
+   68  rm lol
+   69  ls
+   70  pwd
+   71  mkdir weddingphotos
+   72  cd weddingphotos
+   73  rm weddingphotos
+   74  rmdir weddingphotos
+   75  ls
+   76  pwd
+   77  ls weddingphotos
+   78  vi weddingphotos
+   79  ls
+   80  ls worksheet1
+   81  cd Worksheet1
+   82  ls
+   83  git status
+   84  git add .
+   85  git status
+   86  git commit -m "Worksheet1"
+   87   git config --global user.email "fnuhasham@gmail.com"
+   88   git config --global user.name "fnuhasham"
+   89  git config -- list
+   90  git commit -m "Worksheet1"
+   91  git push -u origin master
+   92  s
+   93  ls
+   94  git commit -m "Worksheet1"
+   95   git push -u origin master
+   96  git push -u origin main
+   97  ls
+   98  git push origin main
+   99  cd worksheet1
+  100  cd Worksheet1
+  101  git push origin main
+  102  ls
+  103  git add cmds.log
+  104  git commit -m "ws1
+  105  git commit -m "ws1"
+  106  git push origin main
+  107  git pull
+  108  origin
+  109  git fetch origin
+  110  git push origin main
+  111  cd ..
+  112  ls
+  113  mkdir ws1
+  114  cd worksheet1
+  115  cd Worksheet1
+  116  ls
+  117  mv cmds,log 
+  118  mv cmds.log 
+  119  mv cmds.log ws1
+  120  cd ..
+  121  cd ws1
+  122  ls
+  123  cd ..
+  124  cd Worksheet1
+  125  ls
+  126  mv ws1 cmds.log
+  127  clear
+  128  ls
+  129  git add cmds.log
+  130  git commit-m "ws1 push to github"
+  131  git commit -m "ws1 push to github"
+  132  git push origin main
+  133  clear
+  134  ls
+  135  git add .
+  136  git commit -m "<Some Message>"
+  137  git config --global useremail "fnuhasham@gmail.com"
+  138  ls
+  139  cd worksheet
+  140  cdworksheet1
+  141  cd worksheet1
+  142  cd Worksheet1
+  143  history >cmds.log
+  144  history > cmds.log
