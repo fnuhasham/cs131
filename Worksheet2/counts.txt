@@ -1,0 +1,11 @@
+996 Global YouTube Statistics.csv
+4174 Global YouTube Statistics.csv
+
+Records from YouTubers in the United States:
+Line count: [I]
+Music category records:
+Line count: [Insert Line Count Here]
+Total word count in the file:
+Word count: [Insert Word Count Here]
+238
+830
