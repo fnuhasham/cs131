@@ -1,0 +1,4 @@
+/bin/bash
+/mnt/scratch/SP24_CS131_Jyotika/fnusp24
+uid=1210(fnusp24) gid=1210(fnusp24) groups=1210(fnusp24),78(S78)
+fnusp24 : fnusp24 S78
