@@ -1,0 +1,504 @@
+1.  find /etc -type f > one.txt 2> two.txt searching for files (-type f') in the / etc directory and it's subdirectories. it then It redirects the standard output to a file named "one.txt".
+And redirects the standard error to a file named "two.txt".
+
+b.  The content of one.txt consists of a list of file paths found in the /etc directory and its subdirectories.
+    The content of two.txt contains any error messages generated during the search process.
+
+2.  cut -d ',' -f3,4 Global\ YouTube\ Statistics.csv cut the third and fourth columns (created year and created month).
+    Sort: sorts the data.
+    uniq -c counts unique combinations.
+    sort -nr sorts the counts in descending order.
+    head -n 3 selects the top 3 combinations.
+
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+3. The output is: 
+   
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+ 
+
+
+4.b. The output is:
+
+PID TTY          TIME CMD
+2858937 ?        00:00:02 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2876174 pts/2    00:00:00 vi
+2876269 pts/4    00:00:00 ps
+
+Process Id is : 2876174
+
+d. The output is:
+
+ PID TTY          TIME CMD
+2858937 ?        00:00:02 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2879197 pts/4    00:00:00 ps
+
+The vim process is gone because it is teriminated.
+
+5. The command I used: pgrep systemd
+
+  1
+2951
+2998
+3746
+86087
+105881
+2060795
+2073814
+2248654
+2379540
+2422345
+2492008
+2808486
+2858937
+2898630
+2902252
+2909471
+3304023
+3312757
+3854249
+
+The init process in Linux is 1.
+
+
+6. The ps aux command is used to display information about all running processes.
+ps: Stands for "process status." This command is used to report a snapshot of the current processes.
+aux: The a option will tells ps to show information about all users' processes. The u option will specifies that detailed information about each process 
+should be displayed. The x option will adds processes that don't have a controlling terminal, allowing ps to show a more complete list of processes.  

@@ -1,0 +1,711 @@
+Script started on 2024-03-18 16:05:59-04:00
+bash-4.4$ ls[K[Kls
+ anon.txt			    hello.txt		  temp
+ cmds.log			    hey			  tempreture
+ counts.txt			    index.html		  us_youtubers.txt
+ Counts.txt			    index.html.1	  weddingphotos
+ count.txt			    music_youtubers.txt   Worksheet1
+ cs131				    myrepo		  Worksheet2
+'Global YouTube Statistics.csv'     Statistics.csv.1	  ws1
+'Global YouTube Statistics.csv.1'   Statistics.csv1
+bash-4.4$ cd cs131
+bash-4.4$ ls
+Assignment1  Assignment2  one.txt  two.txt  Worksheet1	Worksheet2
+bash-4.4$ rm[K[Kvvvvfvnf[K[K[K[K[K[K[K[Krmdir Assignment [K2
+rmdir: failed to remove 'Assignment2': Directory not empty
+bash-4.4$ rm -r[Kf Assignment [K2
+rm: cannot remove 'Assignment2': Is a directory
+bash-4.4$ rm -rf Assignment [K2
+bash-4.4$ ls
+Assignment1  one.txt  two.txt  Worksheet1  Worksheet2
+bash-4.4$ rm- rf one.txt
+bash: rm-: command not found
+bash-4.4$ rm -f one.txt
+bash-4.4$ rm -f two.txt
+bash-4.4$ ls
+Assignment1  Worksheet1  Worksheet2
+bash-4.4$ mkdir Assignmen [Kt 2[K[K2
+bash-4.4$ cd Assignment [K2
+bash-4.4$ ls
+bash-4.4$ find /etc -type f > one.txt 2> two.txt
+bash-4.4$ ls
+one.txt  two.txt
+bash-4.4$ cat one.txt
+/etc/fstab
+/etc/crypttab
+/etc/multipath.conf
+/etc/multipath/wwids
+/etc/multipath/bindings
+/etc/resolv.conf
+/etc/dnf/modules.d/container-tools.module
+/etc/dnf/modules.d/perl.module
+/etc/dnf/modules.d/perl-IO-Socket-SSL.module
+/etc/dnf/modules.d/perl-libwww-perl.module
+/etc/dnf/modules.d/python39.module
+/etc/dnf/modules.d/javapackages-runtime.module
+/etc/dnf/dnf.conf
+/etc/dnf/plugins/copr.conf
+/etc/dnf/plugins/debuginfo-install.conf
+/etc/dnf/plugins/kpatch.conf
+/etc/dnf/plugins/product-id.conf
+/etc/dnf/plugins/subscription-manager.conf
+/etc/dnf/plugins/versionlock.conf
+/etc/dnf/plugins/versionlock.list
+/etc/dnf/protected.d/dnf.conf
+/etc/dnf/protected.d/redhat-release.conf
+/etc/dnf/protected.d/setup.conf
+/etc/dnf/protected.d/systemd.conf
+/etc/dnf/protected.d/sudo.conf
+/etc/dnf/protected.d/yum.conf
+/etc/fonts/conf.d/README
+/etc/fonts/fonts.conf
+/etc/libreport/events.d/collect_dnf.conf
+/etc/libreport/events.d/mdadm_event.conf
+/etc/logrotate.d/dnf
+/etc/logrotate.d/btmp
+/etc/logrotate.d/wtmp
+/etc/logrotate.d/samba
+/etc/logrotate.d/syslog
+/etc/logrotate.d/iscsiuiolog
+/etc/logrotate.d/bootlog
+/etc/logrotate.d/sssd
+/etc/logrotate.d/kvm_stat
+/etc/logrotate.d/subscription-manager
+/etc/logrotate.d/firewalld
+/etc/logrotate.d/chrony
+/etc/logrotate.d/opal-prd
+/etc/logrotate.d/psacct
+/etc/bash_completion.d/tracer
+/etc/bash_completion.d/authselect-completion.sh
+/etc/bash_completion.d/vdo
+/etc/bash_completion.d/vdostats
+/etc/bash_completion.d/redefine_filedir
+/etc/bash_completion.d/bpftool
+/etc/bash_completion.d/iprconfig
+/etc/rhsm/ca/redhat-entitlement-authority.pem
+/etc/rhsm/ca/redhat-uep.pem
+/etc/rhsm/ca/katello-server-ca.pem
+/etc/rhsm/ca/katello-default-ca.pem
+/etc/rhsm/syspurpose/valid_fields.json
+/etc/rhsm/syspurpose/syspurpose.json
+/etc/rhsm/logging.conf
+/etc/rhsm/rhsm.conf
+/etc/rhsm/rhsm.conf.kat-backup
+/etc/pki/swid/CA/redhat.com/redhatcodesignca.cert
+/etc/pki/product-default/279.pem
+/etc/pki/rpm-gpg/ISV-Container-signing-key
+/etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-beta
+/etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+/etc/pki/ca-trust/extracted/edk2/README
+/etc/pki/ca-trust/extracted/edk2/cacerts.bin
+/etc/pki/ca-trust/extracted/README
+/etc/pki/ca-trust/extracted/java/README
+/etc/pki/ca-trust/extracted/java/cacerts
+/etc/pki/ca-trust/extracted/openssl/README
+/etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+/etc/pki/ca-trust/extracted/pem/README
+/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+/etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem
+/etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem
+/etc/pki/ca-trust/README
+/etc/pki/ca-trust/ca-legacy.conf
+/etc/pki/ca-trust/source/README
+/etc/pki/ca-trust/source/anchors/katello-server-ca.pem
+/etc/pki/tls/ct_log_list.cnf
+/etc/pki/tls/openssl.cnf
+/etc/pki/nssdb/cert8.db
+/etc/pki/nssdb/cert9.db
+/etc/pki/nssdb/key3.db
+/etc/pki/nssdb/key4.db
+/etc/pki/nssdb/pkcs11.txt
+/etc/pki/nssdb/secmod.db
+/etc/pki/consumer.old/key.pem
+/etc/pki/consumer.old/cert.pem
+/etc/rpm/macros.dist
+/etc/netconfig
+/etc/issue
+/etc/nsswitch.conf.bak
+/etc/issue.net
+/etc/lvm/lvm.conf
+/etc/lvm/lvmlocal.conf
+/etc/lvm/profile/cache-mq.profile
+/etc/lvm/profile/cache-smq.profile
+/etc/lvm/profile/command_profile_template.profile
+/etc/lvm/profile/lvmdbusd.profile
+/etc/lvm/profile/metadata_profile_template.profile
+/etc/lvm/profile/thin-generic.profile
+/etc/lvm/profile/thin-performance.profile
+/etc/lvm/profile/vdo-small.profile
+/etc/groff/site-tmac/man.local
+/etc/groff/site-tmac/mdoc.local
+/etc/lsm/lsmd.conf
+/etc/lsm/pluginconf.d/sim.conf
+/etc/redhat-release
+/etc/magic
+/etc/GREP_COLORS
+/etc/sos/sos.conf
+/etc/system-release-cpe
+/etc/yum.repos.d/redhat.repo
+/etc/login.defs
+/etc/aliases
+/etc/depmod.d/dist.conf
+/etc/depmod.d/kvdo.conf
+/etc/bashrc
+/etc/modprobe.d/firewalld-sysctls.conf
+/etc/modprobe.d/tuned.conf
+/etc/csh.cshrc
+/etc/.pwd.lock
+/etc/csh.login
+/etc/security/pwquality.conf
+/etc/security/access.conf
+/etc/security/chroot.conf
+/etc/security/console.apps/config-util
+/etc/security/console.apps/subscription-manager
+/etc/security/console.handlers
+/etc/security/console.perms
+/etc/security/faillock.conf
+/etc/security/group.conf
+/etc/security/limits.conf
+/etc/security/namespace.conf
+/etc/security/namespace.init
+/etc/security/opasswd
+/etc/security/pam_env.conf
+/etc/security/sepermit.conf
+/etc/security/time.conf
+/etc/environment
+/etc/pam.d/vlock
+/etc/pam.d/config-util
+/etc/pam.d/other
+/etc/pam.d/login
+/etc/pam.d/remote
+/etc/pam.d/runuser
+/etc/pam.d/runuser-l
+/etc/pam.d/su
+/etc/pam.d/su-l
+/etc/pam.d/systemd-user
+/etc/pam.d/polkit-1
+/etc/pam.d/crond
+/etc/pam.d/passwd
+/etc/pam.d/sudo
+/etc/pam.d/sudo-i
+/etc/pam.d/cockpit
+/etc/pam.d/sssd-shadowutils
+/etc/pam.d/subscription-manager
+/etc/pam.d/sshd
+/etc/pam.d/chfn
+/etc/pam.d/chsh
+/etc/pam.d/atd
+/etc/ethertypes
+/etc/adjtime
+/etc/exports
+/etc/group-
+/etc/filesystems
+/etc/gshadow-
+/etc/group
+/etc/dracut.conf
+/etc/gshadow
+/etc/host.conf
+/etc/passwd-
+/etc/hosts
+/etc/shadow-
+/etc/inputrc
+/etc/motd
+/etc/inittab
+/etc/networks
+/etc/sysctl.conf
+/etc/passwd
+/etc/systemd/coredump.conf
+/etc/systemd/journald.conf
+/etc/systemd/logind.conf
+/etc/systemd/resolved.conf
+/etc/systemd/system.conf
+/etc/systemd/user.conf
+/etc/systemd/system.control/srcmstr.service.d/50-TasksMax.conf
+/etc/printcap
+/etc/profile
+/etc/profile.d/csh.local
+/etc/profile.d/lang.csh
+/etc/profile.d/lang.sh
+/etc/profile.d/sh.local
+/etc/profile.d/colorgrep.csh
+/etc/profile.d/colorgrep.sh
+/etc/profile.d/colorxzgrep.csh
+/etc/profile.d/colorxzgrep.sh
+/etc/profile.d/colorls.csh
+/etc/profile.d/colorls.sh
+/etc/profile.d/less.csh
+/etc/profile.d/less.sh
+/etc/profile.d/gawk.csh
+/etc/profile.d/gawk.sh
+/etc/profile.d/colorzgrep.csh
+/etc/profile.d/colorzgrep.sh
+/etc/profile.d/which2.csh
+/etc/profile.d/which2.sh
+/etc/profile.d/vim.csh
+/etc/profile.d/vim.sh
+/etc/profile.d/bash_completion.sh
+/etc/binfmt.d/kshcomp.conf
+/etc/protocols
+/etc/services
+/etc/machine-id
+/etc/shadow
+/etc/shells
+/etc/subgid
+/etc/tcsd.conf
+/etc/subuid
+/etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+/etc/X11/xinit/xinitrc.d/10-qt5-check-opengl2.sh
+/etc/skel/.bash_logout
+/etc/skel/.bash_profile
+/etc/skel/.bashrc
+/etc/skel/.kshrc
+/etc/sysconfig/ip6tables-config
+/etc/sysconfig/iptables-config
+/etc/sysconfig/nftables.conf
+/etc/sysconfig/ebtables-config
+/etc/sysconfig/samba
+/etc/sysconfig/rsyslog
+/etc/sysconfig/run-parts
+/etc/sysconfig/crond
+/etc/sysconfig/network-scripts/ifcfg-env3
+/etc/sysconfig/network-scripts/ifcfg-env2
+/etc/sysconfig/raid-check
+/etc/sysconfig/kdump
+/etc/sysconfig/cpupower
+/etc/sysconfig/firewalld
+/etc/sysconfig/chronyd
+/etc/sysconfig/sshd
+/etc/sysconfig/atd
+/etc/sysconfig/smartmontools
+/etc/sysconfig/irqbalance
+/etc/sysconfig/man-db
+/etc/sysconfig/kernel
+/etc/sysconfig/anaconda
+/etc/sysconfig/sshd-permitrootlogin
+/etc/sysconfig/network
+/etc/xdg/qtchooser/5-64.conf
+/etc/sestatus.conf
+/etc/ld.so.conf
+/etc/ld.so.conf.d/kernel-4.18.0-372.9.1.el8.ppc64le.conf
+/etc/ld.so.conf.d/kernel-4.18.0-372.32.1.el8_6.ppc64le.conf
+/etc/ld.so.conf.d/dyninst-ppc64le.conf
+/etc/udev/rules.d/90-vpdupdate.rules
+/etc/udev/rules.d/69-vdo-start-by-dev.rules
+/etc/udev/rules.d/70-persistent-net.rules
+/etc/udev/udev.conf
+/etc/udev/hwdb.bin
+/etc/default/useradd
+/etc/default/grub
+/etc/cron.deny
+/etc/rpc
+/etc/anacrontab
+/etc/ld.so.cache
+/etc/rwtab.d/logrotate
+/etc/rwtab.d/sssd
+/etc/rc.d/init.d/README
+/etc/rc.d/init.d/functions
+/etc/rc.d/rc.local
+/etc/libuser.conf
+/etc/cron.daily/logrotate
+/etc/cron.daily/run_diag_encl
+/etc/logrotate.conf
+/etc/rsyslog.conf
+/etc/samba/lmhosts
+/etc/samba/smb.conf
+/etc/samba/smb.conf.example
+/etc/rsyslog.d/opal-prd.conf
+/etc/rsyslog.d/21-cloudinit.conf
+/etc/cron.hourly/0anacron
+/etc/xattr.conf
+/etc/lsvpd/cpu_mod_conv.conf
+/etc/lsvpd/nvme_templates.conf
+/etc/lsvpd/scsi_templates.conf
+/etc/libaudit.conf
+/etc/libnl/classid
+/etc/libnl/pktloc
+/etc/selinux/semanage.conf
+/etc/selinux/targeted/.policy.sha512
+/etc/selinux/targeted/booleans.subs_dist
+/etc/selinux/targeted/contexts/customizable_types
+/etc/selinux/targeted/contexts/dbus_contexts
+/etc/selinux/targeted/contexts/default_contexts
+/etc/selinux/targeted/contexts/default_type
+/etc/selinux/targeted/contexts/failsafe_context
+/etc/selinux/targeted/contexts/files/file_contexts
+/etc/selinux/targeted/contexts/files/file_contexts.homedirs
+/etc/selinux/targeted/contexts/files/file_contexts.local
+/etc/selinux/targeted/contexts/files/file_contexts.subs
+/etc/selinux/targeted/contexts/files/file_contexts.subs_dist
+/etc/selinux/targeted/contexts/files/media
+/etc/selinux/targeted/contexts/files/file_contexts.bin
+/etc/selinux/targeted/contexts/files/file_contexts.homedirs.bin
+/etc/selinux/targeted/contexts/initrc_context
+/etc/selinux/targeted/contexts/lxc_contexts
+/etc/selinux/targeted/contexts/openssh_contexts
+/etc/selinux/targeted/contexts/removable_context
+/etc/selinux/targeted/contexts/securetty_types
+/etc/selinux/targeted/contexts/sepgsql_contexts
+/etc/selinux/targeted/contexts/snapperd_contexts
+/etc/selinux/targeted/contexts/systemd_contexts
+/etc/selinux/targeted/contexts/userhelper_context
+/etc/selinux/targeted/contexts/users/guest_u
+/etc/selinux/targeted/contexts/users/root
+/etc/selinux/targeted/contexts/users/staff_u
+/etc/selinux/targeted/contexts/users/sysadm_u
+/etc/selinux/targeted/contexts/users/unconfined_u
+/etc/selinux/targeted/contexts/users/user_u
+/etc/selinux/targeted/contexts/users/xguest_u
+/etc/selinux/targeted/contexts/virtual_domain_context
+/etc/selinux/targeted/contexts/virtual_image_context
+/etc/selinux/targeted/contexts/x_contexts
+/etc/selinux/targeted/policy/policy.31
+/etc/selinux/targeted/setrans.conf
+/etc/selinux/targeted/seusers
+/etc/selinux/config
+/etc/gcrypt/random.conf
+/etc/kernel/install.d/20-grubby.install
+/etc/kernel/install.d/90-loaderentry.install
+/etc/libibverbs.d/bnxt_re.driver
+/etc/libibverbs.d/cxgb4.driver
+/etc/libibverbs.d/efa.driver
+/etc/libibverbs.d/hfi1verbs.driver
+/etc/libibverbs.d/hns.driver
+/etc/libibverbs.d/irdma.driver
+/etc/libibverbs.d/mlx4.driver
+/etc/libibverbs.d/mlx5.driver
+/etc/libibverbs.d/qedr.driver
+/etc/libibverbs.d/rxe.driver
+/etc/libibverbs.d/siw.driver
+/etc/libibverbs.d/vmw_pvrdma.driver
+/etc/virc
+/etc/bindresvport.blacklist
+/etc/request-key.conf
+/etc/DIR_COLORS
+/etc/dbus-1/session.conf
+/etc/dbus-1/system.conf
+/etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf
+/etc/dbus-1/system.d/org.selinux.conf
+/etc/dbus-1/system.d/oddjob.conf
+/etc/dbus-1/system.d/oddjob-mkhomedir.conf
+/etc/dbus-1/system.d/org.freedesktop.PackageKit.conf
+/etc/dbus-1/system.d/org.fedoraproject.SetroubleshootFixit.conf
+/etc/dbus-1/system.d/org.fedoraproject.SetroubleshootPrivileged.conf
+/etc/dbus-1/system.d/org.fedoraproject.Setroubleshootd.conf
+/etc/dbus-1/system.d/teamd.conf
+/etc/dbus-1/system.d/com.redhat.RHSM1.Facts.conf
+/etc/dbus-1/system.d/com.redhat.RHSM1.conf
+/etc/dbus-1/system.d/org.freedesktop.realmd.conf
+/etc/dbus-1/system.d/com.redhat.tuned.conf
+/etc/rhc/workers/rhc-package-manager.toml
+/etc/rhc/config.toml
+/etc/DIR_COLORS.256color
+/etc/krb5.conf.d/enable_sssd_conf_dir
+/etc/krb5.conf.d/kcm_default_ccache
+/etc/ssh/moduli
+/etc/ssh/ssh_config
+/etc/ssh/ssh_config.d/05-redhat.conf
+/etc/ssh/sshd_config
+/etc/ssh/ssh_host_rsa_key
+/etc/ssh/ssh_host_rsa_key.pub
+/etc/ssh/ssh_host_dsa_key
+/etc/ssh/ssh_host_dsa_key.pub
+/etc/ssh/ssh_host_ecdsa_key
+/etc/ssh/ssh_host_ecdsa_key.pub
+/etc/ssh/ssh_host_ed25519_key
+/etc/ssh/ssh_host_ed25519_key.pub
+/etc/DIR_COLORS.lightbgcolor
+/etc/NetworkManager/NetworkManager.conf
+/etc/NetworkManager/conf.d/99-cloud-init.conf
+/etc/NetworkManager/dispatcher.d/20-chrony-dhcp
+/etc/NetworkManager/dispatcher.d/20-chrony-onoffline
+/etc/NetworkManager/dispatcher.d/hook-network-manager
+/etc/vimrc
+/etc/libssh/libssh_client.config
+/etc/libssh/libssh_server.config
+/etc/openldap/ldap.conf
+/etc/crypto-policies/back-ends/nss.config
+/etc/crypto-policies/local.d/nss-p11-kit.config
+/etc/crypto-policies/state/current
+/etc/crypto-policies/state/CURRENT.pol
+/etc/crypto-policies/config
+/etc/crontab
+/etc/krb5.conf
+/etc/cron.d/0hourly
+/etc/cron.d/raid-check
+/etc/iproute2/bpf_pinning
+/etc/iproute2/ematch_map
+/etc/iproute2/group
+/etc/iproute2/nl_protos
+/etc/iproute2/rt_dsfield
+/etc/iproute2/rt_protos
+/etc/iproute2/rt_realms
+/etc/iproute2/rt_scopes
+/etc/iproute2/rt_tables
+/etc/unbound/icannbundle.pem
+/etc/unbound/root.key
+/etc/ppc64-diag/ppc64-diag.config
+/etc/rc.powerfail
+/etc/libblockdev/conf.d/00-default.cfg
+/etc/usb_modeswitch.conf
+/etc/authselect/user-nsswitch.conf
+/etc/authselect/system-auth
+/etc/authselect/password-auth
+/etc/authselect/fingerprint-auth
+/etc/authselect/smartcard-auth
+/etc/authselect/postlogin
+/etc/authselect/nsswitch.conf
+/etc/authselect/dconf-db
+/etc/authselect/dconf-locks
+/etc/authselect/authselect.conf
+/etc/oddjobd.conf
+/etc/oddjobd.conf.d/oddjobd-introspection.conf
+/etc/oddjobd.conf.d/oddjobd-mkhomedir.conf
+/etc/PackageKit/PackageKit.conf
+/etc/PackageKit/Vendor.conf
+/etc/kdump.conf
+/etc/makedumpfile.conf.sample
+/etc/sudo-ldap.conf
+/etc/sudo.conf
+/etc/sudoers
+/etc/iscsi/iscsid.conf
+/etc/iscsi/initiatorname.iscsi
+/etc/mke2fs.conf
+/etc/setroubleshoot/setroubleshoot.conf
+/etc/plymouth/plymouthd.conf
+/etc/fprintd.conf
+/etc/udisks2/mount_options.conf.example
+/etc/udisks2/udisks2.conf
+/etc/idmapd.conf
+/etc/trusted-key.key
+/etc/insights-client/.exp.sed
+/etc/insights-client/.fallback.json
+/etc/insights-client/.fallback.json.asc
+/etc/insights-client/cert-api.access.redhat.com.pem
+/etc/insights-client/insights-client.conf
+/etc/insights-client/insights-client.motd
+/etc/insights-client/redhattools.pub.gpg
+/etc/insights-client/rpm.egg
+/etc/insights-client/rpm.egg.asc
+/etc/fuse.conf
+/etc/containers/policy.json
+/etc/containers/registries.conf
+/etc/containers/registries.conf.d/000-shortnames.conf
+/etc/containers/registries.conf.d/001-rhel-shortnames.conf
+/etc/containers/registries.conf.d/002-rhel-shortnames-overrides.conf
+/etc/containers/registries.d/default.yaml
+/etc/containers/registries.d/registry.access.redhat.com.yaml
+/etc/containers/registries.d/registry.redhat.io.yaml
+/etc/containers/storage.conf
+/etc/pinforc
+/etc/tuned/active_profile
+/etc/tuned/bootcmdline
+/etc/tuned/post_loaded_profile
+/etc/tuned/profile_mode
+/etc/tuned/tuned-main.conf
+/etc/wgetrc
+/etc/dhcp/dhclient.d/chrony.sh
+/etc/dhcp/dhclient-exit-hooks.d/hook-dhclient
+/etc/chrony.conf
+/etc/chrony.keys
+/etc/at.deny
+/etc/updatedb.conf
+/etc/smartmontools/smartd.conf
+/etc/smartmontools/smartd_warning.sh
+/etc/nvme/hostnqn
+/etc/nvme/hostid
+/etc/man_db.conf
+/etc/nanorc
+/etc/mailcap
+/etc/mime.types
+/etc/locale.conf
+/etc/vconsole.conf
+/etc/hostname
+/etc/.updated
+/etc/cloud/cloud.cfg.d/05_logging.cfg
+/etc/cloud/cloud.cfg.d/README
+/etc/cloud/templates/chef_client.rb.tmpl
+/etc/cloud/templates/chrony.conf.debian.tmpl
+/etc/cloud/templates/chrony.conf.fedora.tmpl
+/etc/cloud/templates/chrony.conf.opensuse.tmpl
+/etc/cloud/templates/chrony.conf.rhel.tmpl
+/etc/cloud/templates/chrony.conf.sles.tmpl
+/etc/cloud/templates/chrony.conf.ubuntu.tmpl
+/etc/cloud/templates/hosts.debian.tmpl
+/etc/cloud/templates/hosts.freebsd.tmpl
+/etc/cloud/templates/hosts.redhat.tmpl
+/etc/cloud/templates/hosts.suse.tmpl
+/etc/cloud/templates/ntp.conf.debian.tmpl
+/etc/cloud/templates/ntp.conf.fedora.tmpl
+/etc/cloud/templates/ntp.conf.opensuse.tmpl
+/etc/cloud/templates/ntp.conf.rhel.tmpl
+/etc/cloud/templates/ntp.conf.sles.tmpl
+/etc/cloud/templates/ntp.conf.ubuntu.tmpl
+/etc/cloud/templates/resolv.conf.tmpl
+/etc/cloud/templates/sources.list.debian.tmpl
+/etc/cloud/templates/sources.list.ubuntu.tmpl
+/etc/cloud/templates/timesyncd.conf.tmpl
+/etc/cloud/ds-identify.cfg
+/etc/cloud/cloud.cfg
+/etc/subuid-
+/etc/subgid-
+/etc/kshrc
+/etc/objrepos/SRCextmeth
+/etc/objrepos/SRCnotify
+/etc/objrepos/SRCsubsvr
+/etc/objrepos/SRCsubsys
+/etc/objrepos/SRCodmlock
+/etc/bindresvport.blacklist.rsct.save
+/etc/ct_node_id
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/calendars.properties
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/logging.properties
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/blacklisted.certs
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/java.policy
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/java.security
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/nss.cfg
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/nss.fips.cfg
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/policy/limited/US_export_policy.jar
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/policy/limited/local_policy.jar
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/policy/unlimited/US_export_policy.jar
+/etc/java/java-1.8.0-openjdk/java-1.8.0-openjdk-1.8.0.352.b08-2.el8_6.ppc64le/lib/security/policy/unlimited/local_policy.jar
+/etc/sgml/docbook/xmlcatalog
+/etc/sgml/sgml.conf
+/etc/sgml/sgml-docbook-3.0.cat
+/etc/sgml/catalog
+/etc/sgml/sgml-docbook-3.1.cat
+/etc/sgml/sgml-docbook-4.0.cat
+/etc/sgml/sgml-docbook-4.1.cat
+/etc/sgml/xml-docbook-4.1.2.cat
+/etc/sgml/sgml-docbook-4.2.cat
+/etc/sgml/xml-docbook-4.2.cat
+/etc/sgml/sgml-docbook-4.3.cat
+/etc/sgml/xml-docbook-4.3.cat
+/etc/sgml/sgml-docbook-4.4.cat
+/etc/sgml/xml-docbook-4.4.cat
+/etc/sgml/sgml-docbook-4.5.cat
+/etc/sgml/xml-docbook-4.5.cat
+/etc/xml/catalog
+/etc/papersize
+/etc/gdbinit
+/etc/asciidoc/asciidoc.conf
+/etc/asciidoc/docbook45.conf
+/etc/asciidoc/filters/code/code-filter.conf
+/etc/asciidoc/filters/code/code-filter.py
+/etc/asciidoc/filters/graphviz/graphviz-filter.conf
+/etc/asciidoc/filters/graphviz/graphviz2png.py
+/etc/asciidoc/filters/source/source-highlight-filter.conf
+/etc/asciidoc/help.conf
+/etc/asciidoc/html4.conf
+/etc/asciidoc/html5.conf
+/etc/asciidoc/lang-cs.conf
+/etc/asciidoc/lang-de.conf
+/etc/asciidoc/lang-el.conf
+/etc/asciidoc/lang-en.conf
+/etc/asciidoc/lang-es.conf
+/etc/asciidoc/lang-fi.conf
+/etc/asciidoc/lang-fr.conf
+/etc/asciidoc/lang-hu.conf
+/etc/asciidoc/lang-id.conf
+/etc/asciidoc/lang-it.conf
+/etc/asciidoc/lang-ja.conf
+/etc/asciidoc/lang-nl.conf
+/etc/asciidoc/lang-pl.conf
+/etc/asciidoc/lang-pt-BR.conf
+/etc/asciidoc/lang-ro.conf
+/etc/asciidoc/lang-ru.conf
+/etc/asciidoc/lang-sv.conf
+/etc/asciidoc/lang-uk.conf
+/etc/asciidoc/latex.conf
+/etc/asciidoc/slidy.conf
+/etc/asciidoc/text.conf
+/etc/asciidoc/themes/flask/flask.css
+/etc/asciidoc/themes/volnitsky/volnitsky.css
+/etc/asciidoc/xhtml11-quirks.conf
+/etc/asciidoc/xhtml11.conf
+bash-4.4$ cat one.[K[K[K[Ktwo.tz[Kxt
+find: ‘/etc/pki/rsyslog’: Permission denied
+find: ‘/etc/lvm/archive’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+find: ‘/etc/lvm/cache’: Permission denied
+find: ‘/etc/sssd’: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/grub.d’: Permission denied
+find: ‘/etc/nftables’: Permission denied
+find: ‘/etc/audit’: Permission denied
+find: ‘/etc/sudoers.d’: Permission denied
+find: ‘/etc/firewalld’: Permission denied
+bash-4.4$ wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main//Global%20YouTube%20Statistics.csv
+--2024-03-18 16:40:35--  https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+          Global Yo   0%[                    ]       0  --.-KB/s               Global YouTube Stat 100%[===================>] 195.58K  --.-KB/s    in 0.01s   
+
+2024-03-18 16:40:35 (17.4 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+bash-4.4$ cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | soort -nr | head -n 3
+      7 0,nan
+      1 video views,category
+      1 9999238237,Entertainment
+bash-4.4$ whoami
+fnusp24
+bash-4.4$ ps -u fun[K[Knusp24
+    PID TTY          TIME CMD
+2858937 ?        00:00:01 systemd
+2858939 ?        00:00:00 (sd-pam)
+2858945 ?        00:00:00 sshd
+2858947 pts/1    00:00:00 bash
+2859895 pts/1    00:00:00 script
+2859897 pts/2    00:00:00 bash
+2860166 ?        00:00:00 sshd
+2860167 pts/4    00:00:00 bash
+2872759 pts/2    00:00:00 ps
+bash-4.4$ vi Assignments[Kss.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignmentss.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignmentss.txt" [New] 0L, 0C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ [Kbash-4.4$ rm -f Assig[K[K[K[K[KAssignmentss.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi file.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"file.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [1;1H[?25h[?25l[m[25;1H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"file.txt" [New] 0L, 0C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi file.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"file.txt" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [1;1H[?25h[?25l[m[25;1H[K[25;1H:[?2004h[?25hq![?25l[?2004l[25;1H[K[25;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi file.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"file.txt" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [1;1H[?25h[?25l[30;1H[m:[?2004h[?25hwq[?25l[?2004l"file.txt" 0L, 0C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ vi file.txtAssignmentss.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pfile.txt[Kvi file.txtAssignmentss.txt[C[C[C[C[C[C[C[C[C[C[6Pps -u fnusp24[C[C[C[C[C[C[C[C[C[Cvi Assignmentss.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pfile.txt[Kvi file.txtAssignmentss.txt[C[C[C[C[C[C[C[C[C[C[6Pps -u fnusp24[C[C[C[C[C[C[C[C[C[Cvi Assignmentss.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pfile.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"file.txt" 0L, 0C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [1;1H[?25h[?25l[m[30;1H[K[30;1H:[?2004h[?25hq![?25l[?2004l[30;1H[K[30;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ pgrep systemd
+1
+2951
+2998
+3746
+86087
+105881
+2060795
+2073814
+2248654
+2379540
+2422345
+2492008
+2808486
+2858937
+2867352
+3304023
+3312757
+3854249
+bash-4.4$ vi Assignments.txt[C[1P.txt2.txt[1P.txts.txts.txt2.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"Assignmentss2.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [1;1H[?25h[?25l[m[30;1H[K[30;1H:[?2004h[?25hq[?25l[?2004l[30;1H[K[30;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi [K[K[Krm -f [K[K[K[K[K[Krm -f S[KAssignmnt [K[K[K[Kment [Kss2.txt
+bash-4.4$ vi Assignments[K2.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;30r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[30;1H"Assignment2.txt" [New File][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [1;1H[?25h[?25l[m[30;1H[1m-- INSERT --[m[30;13H[K[1;1H[?25h[?25lg[?25h[?25lf[?25h[?25lr[?25h[?25ln[?25h[?25lg[?25h[?25lg[?25h[?25ld[?25h[?25lv[?25h[?25ld[?25h[?25lv[?25h[?25ld[?25h[?25lv[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[1;10H[K[1;10H[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25l1[?25h[?25l.[?25h[?25l [?25h[?25lv[?25h[?25lf[?25h[?25lv[?25h[?25lf[?25h[?25lv[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25lfind /etc -type f: Searches[?25h[?25l [?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25l [?25h[?25lf[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25l[?25h[?25ls[?25h[?25l [?25h[?25l[?25h[?25l([?25h[?25l [?25h[?25l[?25h[?25l [?25h[?25lt[?25h[?25ly[?25h[?25lp[?25h[?25le[?25h[?25l [?25h[?25l-[?25h[?25lf[?25h [?25l-type -f[1;44H[?25htype -f[?25l_[?25h[?25l[1;51H[K[1;51H[?25h[?25l)[?25h[?25l [?25h[?25li[?25h[?25ln[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25l/[?25h[?25le[?25h[?25lt[?25h[?25lc[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25lr[?25h[?25le[?25h[?25lc[?25h[?25lt[?25h[?25lo[?25h[?25lr[?25h[?25ly[?25h[?25l [?25h[?25la[?25h[?25ln[?25h[?25ls[?25h[?25l [?25h[?25l[?25h[?25l[1;77H[K[1;77H[?25h[?25ld[?25h[?25l [?25h[?25li[?25h[?25lt[2;1H[?25h[?25l'[2;2H[K[2;2H[?25h[?25ls[?25h[?25l [?25h[27m[23m[29m[m[H[2J[?25l[1;1H1. find /etc -type f: Searches for files( -type -f) in the /etc directory and it's
+[1m[34m~                                                                                                                                                                                                                 [3;1H~                                                                                                                                                                                                                 [4;1H~                                                                                                                                                                                                                 [5;1H~                                                                                                                                                                                                                 [6;1H~                                                                                                                                                                                                                 [7;1H~                                                                                                                                                                                                                 [8;1H~                                                                                                                                                                                                                 [9;1H~                                                                                                                                                                                                                 [10;1H~                                                                                                                                                                                                                 [11;1H~                                                                                                                                                                                                                 [12;1H~                                                                                                                                                                                                                 [13;1H~                                                                                                                                                                                                                 [14;1H~                                                                                                                                                                                                                 [15;1H~                                                                                                                                                                                                                 [16;1H~                                                                                                                                                                                                                 [17;1H~                                                                                                                                                                                                                 [18;1H~                                                                                                                                                                                                                 [19;1H~                                                                                                                                                                                                                 [20;1H~                                                                                                                                                                                                                 [21;1H~                                                                                                                                                                                                                 [22;1H~                                                                                                                                                                                                                 [23;1H~                                                                                                                                                                                                                 [24;1H~                                                                                                                                                                                                                 [25;1H~                                                                                                                                                                                                                 [26;1H~                                                                                                                                                                                                                 [27;1H~                                                                                                                                                                                                                 [28;1H~                                                                                                                                                                                                                 [29;1H~                                                                                                                                                                                                                 [30;1H~                                                                                                                                                                                                                 [31;1H~                                                                                                                                                                                                                 [32;1H~                                                                                                                                                                                                                 [33;1H~                                                                                                                                                                                                                 [34;1H~                                                                                                                                                                                                                 [35;1H~                                                                                                                                                                                                                 [36;1H~                                                                                                                                                                                                                 [37;1H~                                                                                                                                                                                                                 [38;1H~                                                                                                                                                                                                                 [39;1H~                                                                                                                                                                                                                 [40;1H~                                                                                                                                                                                                                 [41;1H~                                                                                                                                                                                                                 [42;1H~                                                                                                                                                                                                                 [43;1H~                                                                                                                                                                                                                 [44;1H~                                                                                                                                                                                                                 [45;1H~                                                                                                                                                                                                                 [46;1H~                                                                                                                                                                                                                 [47;1H~                                                                                                                                                                                                                 [48;1H~                                                                                                                                                                                                                 [49;1H~                                                                                                                                                                                                                 [50;1H~                                                                                                                                                                                                                 [51;1H~                                                                                                                                                                                                                 [52;1H~                                                                                                                                                                                                                 [53;1H~                                                                                                                                                                                                                 [54;1H~                                                                                                                                                                                                                 [55;1H~                                                                                                                                                                                                                 [56;1H~                                                                                                                                                                                                                 [57;1H~                                                                                                                                                                                                                 [m[58;1H[1m-- INSERT --[1;84H[?25h[?25l[ms[?25h[?25lu[?25h[?25lb[?25h[?25ld[?25h[?25li[?25h[?25lr[?25h[?25le[?25h[?25lc[?25h[?25lt[?25h[?25lo[?25h[?25lr[?25h[?25li[?25h[?25le[?25h[?25ls[?25h[?25l[2;1H[K[2;1H[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25lb[?25h[?25l.[?25h[?25l [?25h[?25l[?25h[?25l[2;5H[K[2;5H[?25h[?25l[2;4H[K[2;4H[?25h[1;1H1. find /etc -ty
+   [1;17H
+   [1;17Hpe f: Searches for files( -type -f) in the /etc directory and it's subdirectories[?25l [?25h[?25l[?25h[?25l.[?25h[?25l> one.txt: Redirects the standard output (stdout) of the find co[?25h[?25lmmand to the file one.txt[?25h> [?25l one.txt: Redirects the standard output (stdout) of the find command to the file one.txt[1;102H[?25h[?25lone.txt: Redirects the standard output (stdout) of the find command to the file one.txt[1;188H[K[1;101H[?25h[?25lone.txt: Redirects the standard output (stdout) of the find command to the file one.txt[1;187H[K[1;100H[?25h[?25l >one.txt: Redirects the standard output (stdout) of the find command to the file one.txt[1;100H[?25h>one.txt: Redirects the standard output (stdout) of th[?25l of the find command to the file one.txt[1;187H[K[1;147H[?25h[?25l of the find command to the file one.txt[1;186H[K[1;146H[?25h[?25l of the find command to the file one.txt[1;185H[K[1;145H[?25h[?25l of the find command to the file one.txt[1;184H[K[1;144H[?25h[?25l of the find command to the file one.txt[1;183H[K[1;143H[?25h[?25l of the find command to the file one.txt[1;182H[K[1;142H[?25h[?25l of the find command to the file one.txt[1;181H[K[1;141H[?25h[?25l of the find command to the file one.txt[1;180H[K[1;140H[?25h[?25lof the find command to the file one.txt[1;179H[K[1;139H[?25h of the find command to the file one.txt[?25l.[?25h[?25l[2;57r[2;1H[L[1;58r[1;180H2> two.txt: Redirects the standd[2;1Hard error (stderr) of the fin[58;11H[1m(paste) --[2;30H[?25h[?25l[md command to the file two.txt[?25h) [?25l of the find command to the file two.txt[2;58H[K[2;18H[?25h[?25l of the find command to the file two.txt[2;57H[K[2;17H[?25h[?25l of the find command to the file two.txt[2;56H[K[2;16H[?25h[?25l of the find command to the file two.txt[2;55H[K[2;15H[?25h[?25l of the find command to the file two.txt[2;54H[K[2;14H[?25h[?25l of the find command to the file two.txt[2;53H[K[2;13H[?25h[?25l of the find command to the file two.txt[2;52H[K[2;12H[?25h[?25l of the find command to the file two.txt[2;51H[K[2;11H[?25h[?25lof the find command to the file two.txt[2;50H[K[2;10H[?25h of the find command to the file two.txt[?25l.[?25h[?25l [?25h[?25lIn summary, this command searches for files in the /etc director[?25h[?25ly and saves the list of found files in one.txt, while any error mes[?25h[?25lsages are saved in two.txt[?25h[?25l.[?25h[?25l[3;57r[3;1H[L[1;58r[58;11H[1m--a[m[58;13H[K[3;1H[?25h[?25l[4;57r[4;1H[L[1;58r[4;1H[?25h[3;1H[1;1H
+
+[1;1H1. find /etc -type f: Searches for files( -type -f) in the /etc directory and it's subdirectories. >one.txt: Redirects the standard output of the fi[?25lnd command to the file one.txt.2> two.txt: Redirects the standaa[2;1Hrd error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;209H[K[1;148H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standarr[2;1Hd error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;208H[K[1;147H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standardd[2;1H error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;207H[K[1;146H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard  [2;1Herror of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;206H[K[1;145H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard ee[2;1Hrror of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;205H[K[1;144H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard err[2;1Hror of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;204H[K[1;143H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard erroo[2;1Hr of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;202H[K[1;141H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard errorr[2;1H of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;201H[K[1;140H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error  [2;1Hof the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;200H[K[1;139H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error oo[2;1Hf the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;199H[K[1;138H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error off[2;1H the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;198H[K[1;137H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of  [2;1Hthe find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;197H[K[1;136H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of tt[2;1Hhe find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;196H[K[1;135H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of thh[2;1He find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;195H[K[1;134H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of thee[2;1H find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;194H[K[1;133H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the  [2;1Hfind command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;193H[K[1;132H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the ff[2;1Hind command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;192H[K[1;131H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the fii[2;1Hnd command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;191H[K[1;130H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the finn[2;1Hd command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;190H[K[1;129H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the findd[2;1H command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;189H[K[1;128H[?25h[?25ld command to the file one.txt.2> two.txt: Redirects the standard error of the find  [2;1Hcommand to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;188H[K[1;127H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find cc[2;1Hommand to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;187H[K[1;126H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find coo[2;1Hmmand to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;186H[K[1;125H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find comm[2;1Hmand to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;185H[K[1;124H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find commm[2;1Hand to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;184H[K[1;123H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find commann[2;1Hd to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;182H[K[1;121H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find commandd[2;1H to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;181H[K[1;120H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command  [2;1Hto the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;180H[K[1;119H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command tt[2;1Ho the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;179H[K[1;118H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command too[2;1H the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;178H[K[1;117H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to  [2;1Hthe file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;177H[K[1;116H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to tt[2;1Hhe file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;176H[K[1;115H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to thh[2;1He file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;175H[K[1;114H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to thee[2;1H file two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;174H[K[1;113H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the  [2;1Hfile two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;173H[K[1;112H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the ff[2;1Hile two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;172H[K[1;111H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the fii[2;1Hle two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;171H[K[1;110H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the fill[2;1He two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;170H[K[1;109H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the filee[2;1H two.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;169H[K[1;108H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file  [2;1Htwo.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;168H[K[1;107H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file tt[2;1Hwo.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;167H[K[1;106H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file tww[2;1Ho.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;166H[K[1;105H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file twoo[2;1H.txt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;165H[K[1;104H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two..[2;1Htxt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;164H[K[1;103H[?25h[?25ld command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.tt[2;1Hxt. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;163H[K[1;102H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txx[2;1Ht. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;162H[K[1;101H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txtt[2;1H. In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;161H[K[1;100H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt..[2;1H In summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;160H[K[1;99H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. II[2;1Hn summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;158H[K[1;97H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. Inn[2;1H summary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;157H[K[1;96H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In  [2;1Hsummary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;156H[K[1;95H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In ss[2;1Hummary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;155H[K[1;94H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In suu[2;1Hmmary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;154H[K[1;93H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summ[2;1Hmary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;153H[K[1;92H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summm[2;1Hary, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;152H[K[1;91H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summaa[2;1Hry, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;151H[K[1;90H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summarr[2;1Hy, this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;150H[K[1;89H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary,,[2;1H this command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;148H[K[1;87H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary,  [2;1Hthis command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;147H[K[1;86H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, tt[2;1Hhis command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;146H[K[1;85H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, thh[2;1His command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;145H[K[1;84H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, thiss[2;1H command searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;143H[K[1;82H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this  [2;1Hcommand searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;142H[K[1;81H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this cc[2;1Hommand searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;141H[K[1;80H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this comm[2;1Hmand searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;139H[K[1;78H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this commm[2;1Hand searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;138H[K[1;77H[?25h[?25ld command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this commaa[2;1Hnd searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;137H[K[1;76H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this commann[2;1Hd searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;136H[K[1;75H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this commandd[2;1H searches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;135H[K[1;74H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command  [2;1Hsearches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;134H[K[1;73H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command ss[2;1Hearches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;133H[K[1;72H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command see[2;1Harches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;132H[K[1;71H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command seaa[2;1Hrches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;131H[K[1;70H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searr[2;1Hches for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;130H[K[1;69H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searcc[2;1Hhes for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;129H[K[1;68H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searchee[2;1Hs for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;127H[K[1;66H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searchess[2;1H for files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;126H[K[1;65H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches  [2;1Hfor files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;125H[K[1;64H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches ff[2;1Hor files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;124H[K[1;63H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches foo[2;1Hr files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;123H[K[1;62H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches forr[2;1H files in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;122H[K[1;61H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for  [2;1Hfiles in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;121H[K[1;60H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for ff[2;1Hiles in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;120H[K[1;59H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for fill[2;1Hes in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;118H[K[1;57H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for filee[2;1Hs in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;117H[K[1;56H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for filess[2;1H in the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;116H[K[1;55H[?25h[?25ld command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files  [2;1Hin the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;115H[K[1;54H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files ii[2;1Hn the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;114H[K[1;53H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files inn[2;1H the /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;113H[K[1;52H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in  [2;1Hthe /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;112H[K[1;51H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in tt[2;1Hhe /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;111H[K[1;50H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in thh[2;1He /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;110H[K[1;49H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in thee[2;1H /etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;109H[K[1;48H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the  [2;1H/etc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;108H[K[1;47H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the //[2;1Hetc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;107H[K[1;46H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /ee[2;1Htc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;106H[K[1;45H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /ett[2;1Hc directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;105H[K[1;44H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etcc[2;1H directory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;104H[K[1;43H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc  [2;1Hdirectory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;103H[K[1;42H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc dd[2;1Hirectory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;102H[K[1;41H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc dii[2;1Hrectory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;101H[K[1;40H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc diree[2;1Hctory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;99H[K[1;38H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc direcc[2;1Htory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;98H[K[1;37H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directt[2;1Hory and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;97H[K[1;36H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directoo[2;1Hry and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;96H[K[1;35H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directorr[2;1Hy and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;95H[K[1;34H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directoryy[2;1H and saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;94H[K[1;33H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory  [2;1Hand saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;93H[K[1;32H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory aa[2;1Hnd saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;92H[K[1;31H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory ann[2;1Hd saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;91H[K[1;30H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory andd[2;1H saves the list of found files in one.txt, while any error messages are saved in two.txt.[2;90H[K[1;29H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and  [2;1Hsaves the list of found files in one.txt, while any error messages are saved in two.txt.[2;89H[K[1;28H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and ss[2;1Haves the list of found files in one.txt, while any error messages are saved in two.txt.[2;88H[K[1;27H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saa[2;1Hves the list of found files in one.txt, while any error messages are saved in two.txt.[2;87H[K[1;26H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and savee[2;1Hs the list of found files in one.txt, while any error messages are saved in two.txt.[2;85H[K[1;24H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and savess[2;1H the list of found files in one.txt, while any error messages are saved in two.txt.[2;84H[K[1;23H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves  [2;1Hthe list of found files in one.txt, while any error messages are saved in two.txt.[2;83H[K[1;22H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves tt[2;1Hhe list of found files in one.txt, while any error messages are saved in two.txt.[2;82H[K[1;21H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves thh[2;1He list of found files in one.txt, while any error messages are saved in two.txt.[2;81H[K[1;20H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves thee[2;1H list of found files in one.txt, while any error messages are saved in two.txt.[2;80H[K[1;19H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the  [2;1Hlist of found files in one.txt, while any error messages are saved in two.txt.[2;79H[K[1;18H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the ll[2;1Hist of found files in one.txt, while any error messages are saved in two.txt.[2;78H[K[1;17H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the lii[2;1Hst of found files in one.txt, while any error messages are saved in two.txt.[2;77H[K[1;16H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the listt[2;1H of found files in one.txt, while any error messages are saved in two.txt.[2;75H[K[1;14H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list  [2;1Hof found files in one.txt, while any error messages are saved in two.txt.[2;74H[K[1;13H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list oo[2;1Hf found files in one.txt, while any error messages are saved in two.txt.[2;73H[K[1;12H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list off[2;1H found files in one.txt, while any error messages are saved in two.txt.[2;72H[K[1;11H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of  [2;1Hfound files in one.txt, while any error messages are saved in two.txt.[2;71H[K[1;10H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of ff[2;1Hound files in one.txt, while any error messages are saved in two.txt.[2;70H[K[1;9H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of foo[2;1Hund files in one.txt, while any error messages are saved in two.txt.[2;69H[K[1;8H[?25h[?25lnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory and saves the list of fouu[2;1Hnd files in one.txt, while any error messages are saved in two.txt.[2;68H[K[1;7H[?25hnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. In summary, this command searches for files in the /etc directory an[?25ld saves the list of founn[2;1Hd files in one.txt, while any error messages are saved in two.txt.[2;67H[K[1;187H[?25h[?25ld saves the list of foundd[2;1H files in one.txt, while any error messages are saved in two.txt.[2;66H[K[1;186H[?25h[?25ld saves the list of found  [2;1Hfiles in one.txt, while any error messages are saved in two.txt.[2;65H[K[1;185H[?25h[?25ld saves the list of found ff[2;1Hiles in one.txt, while any error messages are saved in two.txt.[2;64H[K[1;184H[?25h[?25ld saves the list of found fii[2;1Hles in one.txt, while any error messages are saved in two.txt.[2;63H[K[1;183H[?25h[?25ld saves the list of found fill[2;1Hes in one.txt, while any error messages are saved in two.txt.[2;62H[K[1;182H[?25h[?25ld saves the list of found filess[2;1H in one.txt, while any error messages are saved in two.txt.[2;60H[K[1;180H[?25h[?25ld saves the list of found files  [2;1Hin one.txt, while any error messages are saved in two.txt.[2;59H[K[1;179H[?25h[?25ld saves the list of found files ii[2;1Hn one.txt, while any error messages are saved in two.txt.[2;58H[K[1;178H[?25h[?25ld saves the list of found files inn[2;1H one.txt, while any error messages are saved in two.txt.[2;57H[K[1;177H[?25h[?25l saves the list of found files in  [2;1Hone.txt, while any error messages are saved in two.txt.[2;56H[K[1;176H[?25h[?25ld saves the list of found files in onn[2;1He.txt, while any error messages are saved in two.txt.[2;54H[K[1;174H[?25h[?25ld saves the list of found files in onee[2;1H.txt, while any error messages are saved in two.txt.[2;53H[K[1;173H[?25h[?25ld saves the list of found files in one..[2;1Htxt, while any error messages are saved in two.txt.[2;52H[K[1;172H[?25h[?25ld saves the list of found files in one.txx[2;1Ht, while any error messages are saved in two.txt.[2;50H[K[1;170H[?25h[?25ld saves the list of found files in one.txtt[2;1H, while any error messages are saved in two.txt.[2;49H[K[1;169H[?25h[?25ld saves the list of found files in one.txt,,[2;1H while any error messages are saved in two.txt.[2;48H[K[1;168H[?25h[?25ld saves the list of found files in one.txt,  [2;1Hwhile any error messages are saved in two.txt.[2;47H[K[1;167H[?25h[?25ld saves the list of found files in one.txt, ww[2;1Hhile any error messages are saved in two.txt.[2;46H[K[1;166H[?25h[?25ld saves the list of found files in one.txt, whh[2;1Hile any error messages are saved in two.txt.[2;45H[K[1;165H[?25h[?25ld saves the list of found files in one.txt, whii[2;1Hle any error messages are saved in two.txt.[2;44H[K[1;164H[?25h[?25ld saves the list of found files in one.txt, whill[2;1He any error messages are saved in two.txt.[2;43H[K[1;163H[?25h[?25ld saves the list of found files in one.txt, while  [2;1Hany error messages are saved in two.txt.[2;41H[K[1;161H[?25h[?25ld saves the list of found files in one.txt, while aa[2;1Hny error messages are saved in two.txt.[2;40H[K[1;160H[?25h[?25ld saves the list of found files in one.txt, while ann[2;1Hy error messages are saved in two.txt.[2;39H[K[1;159H[?25h[?25ld saves the list of found files in one.txt, while anyy[2;1H error messages are saved in two.txt.[2;38H[K[1;158H[?25h[?25ld saves the list of found files in one.txt, while any  [2;1Herror messages are saved in two.txt.[2;37H[K[1;157H[?25h[?25ld saves the list of found files in one.txt, while any ee[2;1Hrror messages are saved in two.txt.[2;36H[K[1;156H[?25h[?25ld saves the list of found files in one.txt, while any err[2;1Hror messages are saved in two.txt.[2;35H[K[1;155H[?25h[?25ld saves the list of found files in one.txt, while any errr[2;1Hor messages are saved in two.txt.[2;34H[K[1;154H[?25h[?25ld saves the list of found files in one.txt, while any erroo[2;1Hr messages are saved in two.txt.[2;33H[K[1;153H[?25h[?25ld saves the list of found files in one.txt, while any errorr[2;1H messages are saved in two.txt.[2;32H[K[1;152H[?25h[?25ld saves the list of found files in one.txt, while any error  [2;1Hmessages are saved in two.txt.[2;31H[K[1;151H[?25h[?25ld saves the list of found files in one.txt, while any error mm[2;1Hessages are saved in two.txt.[2;30H[K[1;150H[?25h[?25ld saves the list of found files in one.txt, while any error mee[2;1Hssages are saved in two.txt.[2;29H[K[1;149H[?25h[?25ld saves the list of found files in one.txt, while any error mess[2;1Hsages are saved in two.txt.[2;28H[K[1;148H[?25h[?25ld saves the list of found files in one.txt, while any error messs[2;1Hages are saved in two.txt.[2;27H[K[1;147H[?25h[?25ld saves the list of found files in one.txt, while any error messaa[2;1Hges are saved in two.txt.[2;26H[K[1;146H[?25h[?25ld saves the list of found files in one.txt, while any error messagg[2;1Hes are saved in two.txt.[2;25H[K[1;145H[?25h[?25ld saves the list of found files in one.txt, while any error messagee[2;1Hs are saved in two.txt.[2;24H[K[1;144H[?25h[?25l saves the list of found files in one.txt, while any error messagess[2;1H are saved in two.txt.[2;23H[K[1;143H[?25h[?25ld saves the list of found files in one.txt, while any error messages  [2;1Hare saved in two.txt.[2;22H[K[1;142H[?25h[?25ld saves the list of found files in one.txt, while any error messages aa[2;1Hre saved in two.txt.[2;21H[K[1;141H[?25h[?25ld saves the list of found files in one.txt, while any error messages aree[2;1H saved in two.txt.[2;19H[K[1;139H[?25h[?25ld saves the list of found files in one.txt, while any error messages are  [2;1Hsaved in two.txt.[2;18H[K[1;138H[?25h[?25ld saves the list of found files in one.txt, while any error messages are ss[2;1Haved in two.txt.[2;17H[K[1;137H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saa[2;1Hved in two.txt.[2;16H[K[1;136H[?25h[?25ld saves the list of found files in one.txt, while any error messages are savv[2;1Hed in two.txt.[2;15H[K[1;135H[?25h[?25ld saves the list of found files in one.txt, while any error messages are savee[2;1Hd in two.txt.[2;14H[K[1;134H[?25h[?25ld saves the list of found files in one.txt, while any error messages are savedd[2;1H in two.txt.[2;13H[K[1;133H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved  [2;1Hin two.txt.[2;12H[K[1;132H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved ii[2;1Hn two.txt.[2;11H[K[1;131H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved inn[2;1H two.txt.[2;10H[K[1;130H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in  [2;1Htwo.txt.[2;9H[K[1;129H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in tt[2;1Hwo.txt.[2;8H[K[1;128H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in tww[2;1Ho.txt.[2;7H[K[1;127H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in twoo[2;1H.txt.[2;6H[K[1;126H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two..[2;1Htxt.[2;5H[K[1;125H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.tt[2;1Hxt.[2;4H[K[1;124H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txx[2;1Ht.[2;3H[K[1;123H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txtt[2;1H.[2;2H[K[1;122H[?25h[?25l[1;57r[57;1H
+[1;58r[1;1H1. finnd command to the file one.txt.2> two.txt: Redirects the standard error of the find command to the file two.txt. Id saves the list of found files in one.txt, while any error messages are saved in two.txt.[57;1H[1m[34m~                                                                                                                                                                                                                 [1;121H[?25h[?25l[md saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;210H[K[1;120H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;208H[K[1;118H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;207H[K[1;117H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;206H[K[1;116H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;205H[K[1;115H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;204H[K[1;114H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;203H[K[1;113H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;202H[K[1;112H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;201H[K[1;111H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;200H[K[1;110H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;199H[K[1;109H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;197H[K[1;107H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;196H[K[1;106H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;195H[K[1;105H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;194H[K[1;104H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;193H[K[1;103H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;192H[K[1;102H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;191H[K[1;101H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;190H[K[1;100H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;189H[K[1;99H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;188H[K[1;98H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;186H[K[1;96H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;185H[K[1;95H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;184H[K[1;94H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;183H[K[1;93H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;182H[K[1;92H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;181H[K[1;91H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;180H[K[1;90H[?25h[?25l saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;179H[K[1;89H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;178H[K[1;88H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;177H[K[1;87H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;176H[K[1;86H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;175H[K[1;85H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;174H[K[1;84H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;173H[K[1;83H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;172H[K[1;82H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;171H[K[1;81H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;170H[K[1;80H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;169H[K[1;79H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;168H[K[1;78H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;167H[K[1;77H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;166H[K[1;76H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;165H[K[1;75H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;164H[K[1;74H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;163H[K[1;73H[?25h[?25lsaves the list of found files in one.txt, while any error messages are saved in two.txt.[1;161H[K[1;71H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;160H[K[1;70H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;159H[K[1;69H[?25h[?25l saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;158H[K[1;68H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;157H[K[1;67H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;156H[K[1;66H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;155H[K[1;65H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;154H[K[1;64H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;153H[K[1;63H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;152H[K[1;62H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;151H[K[1;61H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;150H[K[1;60H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;149H[K[1;59H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;148H[K[1;58H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;146H[K[1;56H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;145H[K[1;55H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;144H[K[1;54H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;143H[K[1;53H[?25h[?25l saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;142H[K[1;52H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;141H[K[1;51H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;140H[K[1;50H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;139H[K[1;49H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;138H[K[1;48H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;137H[K[1;47H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;135H[K[1;45H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;134H[K[1;44H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;133H[K[1;43H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;132H[K[1;42H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;131H[K[1;41H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;130H[K[1;40H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;129H[K[1;39H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;127H[K[1;37H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;126H[K[1;36H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;125H[K[1;35H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;124H[K[1;34H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;123H[K[1;33H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;122H[K[1;32H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;121H[K[1;31H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;120H[K[1;30H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;118H[K[1;28H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;117H[K[1;27H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;116H[K[1;26H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;115H[K[1;25H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;114H[K[1;24H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;112H[K[1;22H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;111H[K[1;21H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;110H[K[1;20H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;109H[K[1;19H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;107H[K[1;17H[?25h[?25l saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;106H[K[1;16H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;105H[K[1;15H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;104H[K[1;14H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;103H[K[1;13H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;102H[K[1;12H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;101H[K[1;11H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;100H[K[1;10H[?25h[?25ld saves the list of found files in one.txt, while any error messages are saved in two.txt.[1;99H[K[1;9H[?25hd saves the list of found files in one.txt, while any error messages are saved in two.txt.[?25l[1;98H[K[1;98H[?25h[?25l[1;97H[K[1;97H[?25h[?25l[1;96H[K[1;96H[?25h[?25l[1;95H[K[1;95H[?25h[?25l[1;94H[K[1;94H[?25h[?25l[1;93H[K[1;93H[?25h[?25l[1;92H[K[1;92H[?25h[?25l[1;91H[K[1;91H[?25h[?25l[?25h[?25l[1;89H[K[1;89H[?25h[?25l[1;88H[K[1;88H[?25h[?25l[?25h[?25l[1;86H[K[1;86H[?25h[?25l[1;85H[K[1;85H[?25h[?25l[1;84H[K[1;84H[?25h[?25l[1;83H[K[1;83H[?25h[?25l[1;82H[K[1;82H[?25h[?25l[?25h[?25l[1;80H[K[1;80H[?25h[?25l[1;79H[K[1;79H[?25h[?25l[1;78H[K[1;78H[?25h[?25l[1;76H[K[1;76H[?25h[?25l[1;75H[K[1;75H[?25h[?25l[1;74H[K[1;74H[?25h[?25l[1;73H[K[1;73H[?25h[?25l[1;71H[K[1;71H[?25h[?25l[1;70H[K[1;70H[?25h[?25l[1;69H[K[1;69H[?25h[?25l[?25h[?25l[1;67H[K[1;67H[?25h[?25l[1;66H[K[1;66H[?25h[?25l[1;65H[K[1;65H[?25h[?25l[1;64H[K[1;64H[?25h[?25l[1;63H[K[1;63H[?25h[?25l[?25h[?25l[1;61H[K[1;61H[?25h[?25l[1;60H[K[1;60H[?25h[?25l[1;59H[K[1;59H[?25h[?25l[?25h[?25l[1;57H[K[1;57H[?25h[?25l[1;56H[K[1;56H[?25h[?25l[1;55H[K[1;55H[?25h[?25l[1;54H[K[1;54H[?25h[?25l[1;53H[K[1;53H[?25h[?25l[?25h[?25l[1;51H[K[1;51H[?25h[?25l[1;50H[K[1;50H[?25h[?25l[1;49H[K[1;49H[?25h[?25l[1;48H[K[1;48H[?25h[?25l[1;46H[K[1;46H[?25h[?25l[1;45H[K[1;45H[?25h[?25l[1;44H[K[1;44H[?25h[?25l[?25h[?25l[1;42H[K[1;42H[?25h[?25l[1;41H[K[1;41H[?25h[?25l[?25h[?25l[1;39H[K[1;39H[?25h[?25l[1;38H[K[1;38H[?25h[?25l[1;37H[K[1;37H[?25h[?25l[1;36H[K[1;36H[?25h[?25l[1;35H[K[1;35H[?25h[?25l[?25h[?25l[1;33H[K[1;33H[?25h[?25l[1;32H[K[1;32H[?25h[?25l[1;30H[K[1;30H[?25h[?25l[1;29H[K[1;29H[?25h[?25l[?25h[?25l[1;27H[K[1;27H[?25h[?25l[1;26H[K[1;26H[?25h[?25l[?25h[?25l[1;24H[K[1;24H[?25h[?25l[1;22H[K[1;22H[?25h[?25l[1;21H[K[1;21H[?25h[?25l[?25h[?25l[1;19H[K[1;19H[?25h[?25l[1;18H[K[1;18H[?25h[?25l[1;17H[K[1;17H[?25h[?25l[?25h[?25l[1;15H[K[1;15H[?25h[?25l[1;14H[K[1;14H[?25h[?25l[1;13H[K[1;13H[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25lThe command find /etc -type f > one.txt 2> two.txt [?25h[?25lis trying to find all regular files (-type f) in the /etc d[?25h[?25lirectory and its subdirectories and redirect the standard ou[?25h[?25l[2;57r[2;1H[L[1;58r[1;174Htput (files found) to one.txt and staa[2;1Hndard error (any errors[58;11H[1m(paste) --[2;25H[?25h[?25l[mencountered) to two.txt.[?25h
+[2;49H[1;209H [?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and stann[2;1Hdard error (any errors encountered) to two.txt.[2;48H[K[1;15H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standd[2;1Hard error (any errors encountered) to two.txt.[2;47H[K[1;14H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standaa[2;1Hrd error (any errors encountered) to two.txt.[2;46H[K[1;13H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standarr[2;1Hd error (any errors encountered) to two.txt.[2;45H[K[1;12H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standardd[2;1H error (any errors encountered) to two.txt.[2;44H[K[1;11H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard  [2;1Herror (any errors encountered) to two.txt.[2;43H[K[1;10H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard ee[2;1Hrror (any errors encountered) to two.txt.[2;42H[K[1;9H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard err[2;1Hror (any errors encountered) to two.txt.[2;41H[K[1;8H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard errr[2;1Hor (any errors encountered) to two.txt.[2;40H[K[1;7H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard erroo[2;1Hr (any errors encountered) to two.txt.[2;39H[K[1;6H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard errorr[2;1H (any errors encountered) to two.txt.[2;38H[K[1;5H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard error  [2;1H(any errors encountered) to two.txt.[2;37H[K[1;4H[?25h[?25lfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard error (([2;1Hany errors encountered) to two.txt.[2;36H[K[1;3H[?25h[?25l find /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt and standard error  [2;1H(any errors encountered) to two.txt.[1;4H[?25hfind /etc -type f > one.txt 2> two.txt is trying to find all regular files (-type f) in the /etc directory and its subdirectories and redirect the standard output (files found) to one.txt an[?25l[1;192H[K[2;1Hand standard error (any errors encountered) to two.txt.[?25hand standard error (any errors encountered) [?25l to two.txt.[2;55H[K[2;43H[?25h[?25l to two.txt.[2;54H[K[2;42H[?25h[?25l to two.txt.[2;53H[K[2;41H[?25h[?25l to two.txt.[2;52H[K[2;40H[?25h[?25l to two.txt.[2;50H[K[2;38H[?25h[?25l to two.txt.[2;49H[K[2;37H[?25h[?25l to two.txt.[2;48H[K[2;36H[?25h[?25l to two.txt.[2;47H[K[2;35H[?25h[?25l to two.txt.[2;46H[K[2;34H[?25h[?25l to two.txt.[2;45H[K[2;33H[?25h[?25l to two.txt.[2;44H[K[2;32H[?25h[?25lto two.txt.[2;43H[K[2;31H[?25h[?25l to two.txt.[2;41H[K[2;29H[?25h[?25l to two.txt.[2;40H[K[2;28H[?25h[?25l to two.txt.[2;39H[K[2;27H[?25h[?25l to two.txt.[2;38H[K[2;26H[?25h[?25l to two.txt.[2;37H[K[2;25H[?25h[?25lto two.txt.[2;36H[K[2;24H[?25h[?25l to two.txt.[2;35H[K[2;23H[?25h[?25l to two.txt.[2;34H[K[2;22H[?25h[?25l to two.txt.[2;33H[K[2;21H[?25h[?25l to two.txt.[2;32H[K[2;20H[?25h[?25lto two.txt.[2;31H[K[2;19H[?25h[?25l to two.txt.[2;30H[K[2;18H[?25h[?25lr to two.txt.[2;19H[?25h to two.txt.
+[?25l:[?25h[?25lw[?25h[?25l[3;2H[K[3;2H[?25h[?25l[3;1H[K[3;1H[?25h[?25li[?25h[?25l[3;1H[K[3;1H[?25h[58;1H[K[3;1H[?25l[?25h[?25l[58;1H:[?2004h[?25hwq[?25l[?2004l"Assignment2.txt" [New] 5L, 229C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ cc[K[Kss[K1vi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cs1[Kvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Crm -f Assignmentss2.txt[C[C[C[C[C[C[C[C[C[C[5Pvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cs1[Kvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cs1[Kvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cs1[Kvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cs1[Kvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Crm -f Assignmentss2.txt[C[C[C[C[C[C[C[C[C[C[3Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Ppgrep systemd[C[C[C[C[C[C[C[C[C[C[2Pvi file.txtAssignmentss.txt[C[C[C[C[C[C[C[C[C[C[6Pps -u fnusp24[C[C[C[C[C[C[C[C[C[C[7Pwhoamicut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | soort -nr | head -n 3[Awhoami[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Kls
+ Assignment2.txt   Assignmentss.txt   file.txt	'Global YouTube Statistics.csv'   one.txt   two.txt
+bash-4.4$ 0[Klsvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cls[K[Klsvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Crm -f Assignmentss2.txt[C[C[C[C[C[C[C[C[C[C[5Pvi Assignment2.txt[C[C[C[C[C[C[C[C[C[Cls[K[Kexit
+exit
+
+Script done on 2024-03-18 17:45:40-04:00
