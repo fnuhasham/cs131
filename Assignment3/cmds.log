@@ -1,0 +1,1000 @@
+   17  clear
+   18  ls
+   19  git add cmds.log
+   20  git commit-m "ws1 push to github"
+   21  git commit -m "ws1 push to github"
+   22  git push origin main
+   23  clear
+   24  ls
+   25  git add .
+   26  git commit -m "<Some Message>"
+   27  git config --global useremail "fnuhasham@gmail.com"
+   28  ls
+   29  cd worksheet
+   30  cdworksheet1
+   31  cd worksheet1
+   32  cd Worksheet1
+   33  history >cmds.log
+   34  history > cmds.log
+   35  git add Worksheet1
+   36  git add .
+   37  git commit -m "Worksheet1"
+   38  git push origin master
+   39  git add .
+   40  git commit -m "Worksheet1"
+   41  git push origin master
+   42  git push origin master 
+   43  git push origin master
+   44  git add .
+   45  commit -m "Worksheet1"
+   46  ls
+   47  git add .
+   48  git commit -m "Worksheet1"
+   49  git push origin master
+   50  claer
+   51  clear
+   52  ls
+   53  cd Worksheet1
+   54  git add .
+   55  git commit -m "Worksheet1"
+   56  ls
+   57  mv cmnds.log
+   58  git push origin master
+   59  fnusp24@172.20.25.9's password:
+   60  Activate the web console with: systemctl enable --now cockpit.socket
+   61  Register this system with Red Hat Insights: insights-client --register
+   62  Create an account or view all your systems at https://red.ht/insights-dashboard
+   63  Last login: Tue Feb 13 15:24:44 2024 from 172.29.96.25
+   64  [fnusp24@sjsu ~]$ ls
+   65  index.html  index.html.1  temp  weddingphotos  Worksheet1  ws1
+   66  [fnusp24@sjsu ~]$ git add .
+   67  [fnusp24@sjsu ~]$ git commit -m "Worksheet1"
+   68  [master (root-commit) cf5fec8] Worksheet1
+   69   9 files changed, 4994 insertions(+)
+   70   create mode 100644 .bash_history
+   71   create mode 100644 .gitconfig
+   72   create mode 100644 .viminfo
+   73   create mode 100644 .wget-hsts
+   74   create mode 160000 Worksheet1
+   75   create mode 100644 index.html
+   76   create mode 100644 index.html.1
+   77   create mode 100644 weddingphotos/.weddingphotos.swp
+   78   create mode 100644 weddingphotos/weddingphotos
+   79  [fnusp24@sjsu ~]$ git push origin master
+   80  fatal: 'origin' does not appear to be a git repository
+   81  fatal: Could not read from remote repository.
+   82  Please make sure you have the correct access rights
+   83  and the repository exists.
+   84  [fnusp24@sjsu ~]$ claer
+   85  -bash: claer: command not found
+   86  [fnusp24@sjsu ~]$ clear
+   87  [fnusp24@sjsu ~]$ ls
+   88  index.html  index.html.1  temp  weddingphotos  Worksheet1  ws1
+   89  [fnusp24@sjsu ~]$ cd Worksheet1
+   90  [fnusp24@sjsu Worksheet1]$ git add .
+   91  [fnusp24@sjsu Worksheet1]$ git commit -m "Worksheet1"
+   92  On branch master
+   93  nothing to commit, working tree clean
+   94  [fnusp24@sjsu Worksheet1]$ ls
+   95  cmds.log
+   96  [fnusp24@sjsu Worksheet1]$ mv cmnds.log
+   97  mv: missing destination file operand after 'cmnds.log'
+   98  Try 'mv --help' for more information.
+   99  [fnusp24@sjsu Worksheet1]$ git push origin master
+  100  Username for 'https://github.com':
+  101  clear
+  102  clear
+  103  git push origin master
+  104  ls
+  105  cd ws1
+  106  a = abc
+  107  echo $0
+  108  echo $1
+  109  a=bcd
+  110  echo $a
+  111  a= 1+2+3
+  112  a=1+2+3
+  113  echo $a
+  114  a=$((1+2+3))
+  115  echo $a
+  116  b=5
+  117  a=$((b+1))
+  118  echo $a
+  119  a=1234
+  120  echo $a
+  121  echo $a+1
+  122  echo $((a+1))
+  123  echo "hi babe
+  124  echo "hi babe"
+  125  clear
+  126  clear
+  127  exist
+  128  ls
+  129  cat weddingphotos
+  130  vi weddingphotos
+  131  ls
+  132  vi tempreture
+  133  cat tempreture
+  134  wc tempreture
+  135  wc-l
+  136  wc -l
+  137  ls
+  138  cat tempreture
+  139  wc tempreture-l
+  140  wc -l tempreture
+  141  sort tempreture
+  142  chmod a-rw
+  143  chmod a-rw temo
+  144  ls
+  145  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  146  ls
+  147  cat Global Youtube Statistics.csv
+  148  cat statistics.csv
+  149  cat Statistics.csv
+  150  grep "United States" "Global YouTube Statistics.csv" > us_youtubers.txt
+  151  grep "Music" "Global YouTube Statistics.csv" > music_youtubers.txt
+  152  wc -l music_youtubers.txt > counts.txt
+  153  wc -w music_youtubers.txt >> counts.txt
+  154  history > cmds.log
+  155  clear
+  156  ls
+  157  cat us_youtubers.txt
+  158  grep United States us_youtubers.txt
+  159  grep Music us_youtubers.txt
+  160  grep Music music_youtubers.txt
+  161  clear
+  162  ls
+  163  cat music_youtubers.txt
+  164  ls
+  165  cat us_youtubers.txt
+  166  ls
+  167  grep Music
+  168  ls
+  169  wc -l weddingphotos.txt
+  170  vi weddingphotos
+  171  vi hello.txt
+  172  wc -l hello.txt
+  173  wc -l hello.txt >>count.txt
+  174  cat count.txt
+  175  cat hello.txt
+  176  wc -w >count.txt
+  177  cat hello.txt
+  178  wc -w >>count.txt
+  179  wc -w hello
+  180  ls
+  181  wc -l hello
+  182  vi hello.txt
+  183  wc -l hello.txt
+  184  wc -w hello.txt
+  185  wc -l hello.txt >>count.txt
+  186  cat count.txt
+  187  vi count.txt
+  188  mkdir hey
+  189  mv counts.txt cmds.log Worksheet2/
+  190  git init
+  191  git add Worksheet2/
+  192  git commit -m "Add counts.txt and cmds.log for Worksheet2"
+  193  git push origin main
+  194  git push origin master
+  195  ls
+  196  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  197  vi Statistics.csv1
+  198  cat Statistics.cs1
+  199  vi Statistics.csv.1
+  200  cat Statistics.csv.1
+  201  ls
+  202  cat Global YouTube Statistics.csv.1
+  203  cat music_youtubers.txt
+  204  grep United States music_youtubers.txt
+  205  ls
+  206  grep United States us_youtubers.txt
+  207  grep UnitedStates us_youtubers.txt
+  208  ls
+  209  clear
+  210  ls
+  211  grep Music wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  212  cd Global YouTube Statistics.csv
+  213  cd  Statistics.csv
+  214  clear
+  215  grep "Music" Global\ YouTube\ Statistics.csv
+  216  Grep all records (entire line) of YouTubers that Have the Country Listed as "United States"
+  217  Grep for the lines that are in the "Music" category in the entire file irrespective of the country
+  218  Find the line counts and word counts of records in "Music" catagory (using wc).
+  219  Redirect the output for both into the file "counts.txt" using redirection (> and >>).
+  220  Edit the counts.txt file with vi or nano with annotation text to indicate what the numbers mean.
+  221  Save the history of your commands in the file "cmds.log" with "history > cmds.log".clear
+  222  clear
+  223  grep "United States" Global\ YouTube\ Statistics.csv
+  224  grep "Music" Global\ YouTube\ Statistics.csv
+  225  wc -l Global\ YouTube\ Statistics.csv >counts.txt
+  226  wc -l Global\ YouTube\ Statistics.cs >>counts.txt
+  227  wc -l Global\ YouTube\ Statistics.cs
+  228  wc -l Global\ YouTube\ Statistics.csv
+  229  wc -l Global\ YouTube\ Statistics.csv >>counts.txt
+  230  wc -w Global\ YouTube\ Statistics.csv
+  231  wc -w Global\ YouTube\ Statistics.csv >>counts.txt
+  232  cat counts.txt
+  233  vi counts.txt
+  234  mkdir Worksheet2
+  235  ls
+  236  mv counts.txt cmds.log Worksheet2/
+  237  mkdir counts.txt
+  238  mv counts.txt cmds.log Worksheet2/
+  239  git push origin master
+  240  vi counts.txt
+  241  ls
+  242  rmdir counts.txt
+  243  vi counts.txt
+  244  ls
+  245  ls counts.txt
+  246  vim counts.txt
+  247  vi count.txt
+  248  cd worksheet2
+  249  cd Worksheet2
+  250  ls
+  251  vi counts.txt
+  252  git init
+  253  git add counts.txt cmds.log
+  254  git commit -m "Worksheet2"
+  255  git push origin master
+  256  git push origin main
+  257  git branch
+  258  git push origin master
+  259  ls
+  260  cd ..
+  261  git branch 
+  262  cd worksheet2
+  263  cd Worksheet2
+  264  git push origin Master
+  265  git push origin master
+  266  ls
+  267  cd Worksheet2
+  268  ls
+  269  cd ..
+  270  ls
+  271  touch myrepo
+  272  ls
+  273  cd myrepo
+  274  rm myrepo
+  275  ls
+  276  mkdir myrepo
+  277  cd Worksheet1
+  278  ls
+  279  git status
+  280  cd ..
+  281  ls
+  282  mkdir cs131
+  283  ls
+  284  cd cs131
+  285  git clone https://github.com/fnuhasham/cs131.git
+  286  git status
+  287  mv Worksheet1 cs131
+  288  cd ..
+  289  mv Worksheet1 cs131
+  290  mv Worksheet2 cs131
+  291  cd cs131
+  292  ls
+  293  cd cs131
+  294  cd ..
+  295  mv Worksheet1 cs131
+  296  mv Worksheet2 cs131
+  297  cd cs131
+  298  git status
+  299  git add Worksheet1 Worksheet2
+  300  mv Worksheet1 ~
+  301  mv Worksheet2 ~
+  302  cd ..
+  303  ls
+  304  cd Worksheet2
+  305  ls
+  306  git status
+  307  cd ..
+  308  rm cs131
+  309  rm -r cs131
+  310  cd cs131
+  311  ls
+  312  rm -r cs131
+  313  cd ..
+  314  ls
+  315  rm -r cs131
+  316  ls
+  317  git clone https://github.com/fnuhasham/cs131.git
+  318  cd
+  319  ls
+  320  cd cs131
+  321  git status
+  322  cd ..
+  323  cd cs131
+  324  mkdir Worksheet1
+  325  mkdir Worksheet2
+  326  cd ..
+  327  cd Worksheet1
+  328  ls
+  329  mv cmd.logs cs131/Worksheet1
+  330  mv cmd.log cs131/Worksheet1/
+  331  mv cmds.log cs131/Worksheet1/
+  332  mv cmds.log cs131/Worksheet1
+  333  mv cmds.log cs131
+  334  cd ..
+  335  cd cs131
+  336  ls
+  337  mv cmds.log Worksheet1
+  338  ls
+  339  cd Worksheet1
+  340  ls
+  341  cd ..
+  342  cd Worksheet2
+  343  ls
+  344  mv cmds.log
+  345  mv counts.txt cs131
+  346  cd ..
+  347  cd cs131
+  348  ls
+  349  cd Worksheet2
+  350  ls
+  351  cd ..
+  352  ls
+  353  cd Worksheet2
+  354  ls
+  355  cs131
+  356  cd cs131
+  357  ls
+  358  cd cs131
+  359  ls
+  360  cd cs131
+  361  cd ..
+  362  cd Worksheet2
+  363  cd ..
+  364  ls
+  365  cd cs131
+  366  ls
+  367  git status
+  368  git add Worksheet1
+  369  git commit "worksheet1"
+  370  git commit "Worksheet1"
+  371  git push
+  372  cd Worksheet2
+  373  ls
+  374  cd ..
+  375  ls
+  376  cd Worksheet2
+  377  ls
+  378  cd cs131
+  379  file cs131
+  380  ls -ld cs131
+  381  cd ..
+  382  cd cs131
+  383  git status
+  384  git push
+  385  git status
+  386  git commit 
+  387  git commit -m "worksheet1"
+  388  git push
+  389  cd Worksheet2
+  390  ls
+  391  cd ..
+  392  ls
+  393  cat counts.txt
+  394  cat count.txt
+  395  vim counts.txt
+  396  cd Worksheet2
+  397  ls
+  398  cd cs131
+  399  mv counts.txt ~
+  400  d ..
+  401  cd ..
+  402  cd cs131
+  403  ls
+  404  cd Workshhet1
+  405  cd Worksheet1
+  406  ls
+  407  cd ..
+  408  cd Worksheet2
+  409  grep "Music" Global\ YouTube\ Statistics.csv
+  410  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  411  grep "Music" Global\ YouTube\ Statistics.csv
+  412  grep "United States" Global\ YouTube\ Statistics.csv
+  413  wc -l Statistics.csv
+  414  wc -l Global\ YouTube\ Statistics.csv
+  415  wc -w Global\ YouTube\ Statistics.csv
+  416  wc -l Global\ YouTube\ Statistics.csv >>counts.txt
+  417  wc -w Global\ YouTube\ Statistics.csv >>counts.txt
+  418  vi counts.txt
+  419  grep "Music" Global\ YouTube\ Statistics.csv | wc -l >>counts.txt
+  420  grep "Music" Global\ YouTube\ Statistics.csv | wc -l
+  421  grep "Music" Global\ YouTube\ Statistics.csv | lc -l
+  422  grep "Music" Global\ YouTube\ Statistics.csv | wc -w >>counts.txt
+  423  vi counts.txt
+  424  cd ..
+  425  cd Worksheet2
+  426  ls
+  427  cd ..
+  428  git add Worksheet2
+  429  git commit -m "Adding Worksheet2"
+  430  git push
+  431  cd Worksheet2
+  432  ls 
+  433  cd ..
+  434  cd Worksheet2
+  435  ls
+  436  vi counts.txt
+  437  cd.. 
+  438  ls
+  439  vi Counts.txt
+  440  vi counts.txt
+  441  cd Worksheeet2
+  442  cd Worksheet2
+  443  vi counts.txt
+  444  cd cs131
+  445  cd ..
+  446  cd cs131
+  447  ls
+  448  cd ..
+  449  cd Worksheet2
+  450  ls
+  451  cat counts.txt
+  452  whoami
+  453  ls
+  454  mkdir cs131/Assignment1
+  455  cd cs131/Assignment1
+  456  echo $Shell
+  457  echo $SHELL
+  458  echo $HOME
+  459  id
+  460  group
+  461  whoami
+  462  group fnusp24
+  463  groups fnusp24
+  464  mkdir Assignment1/myDir
+  465  mkdir myDir
+  466  chmod u-w myDir
+  467  cd myDir
+  468  ls
+  469  ls -l
+  470  vi file.txt
+  471  mkdir myDir2
+  472  cd Assignment1
+  473  cd ..
+  474  mkdir myDir2
+  475  mkdir myDir3
+  476  cd myDir2
+  477  vi myFile.txt
+  478  mv myFile.txt ../myDir3/
+  479  free -m
+  480  man free
+  481  cat /etc/*release*
+  482  ls -l
+  483  ls
+  484  rmdir myDir
+  485  rmdir myDir2
+  486  rmdir myDir3
+  487  rm -rf myDir3/
+  488  ls
+  489  exit
+  490  echo $SHELL
+  491  echo $HOME
+  492  id
+  493  whoami
+  494  group fnusp24
+  495  groups fnusp24
+  496  mkdir myDir
+  497  chmod u-w myDir
+  498  cd myDir
+  499  ls
+  500  ls-l
+  501  vifiles.txt
+  502  vi files.txt
+  503  mkdir myDir2
+  504  cd .. 
+  505  cd Assignment1
+  506  ls
+  507  cd ..
+  508  cd Assignment1
+  509  mkdir myDir2
+  510  mkdir myDir3
+  511  cd myDir2
+  512  vi myFilee.txt
+  513  mv myFilee.txt .. /myDir3/
+  514  mv myFilee.txt ../myDir3/
+  515  free -m
+  516  man free
+  517  cat /etc/*release*
+  518  cd /etc/
+  519  ls
+  520  cd sysconfig
+  521  ls
+  522  cd ..
+  523  ls
+  524  cd etc
+  525  ls
+  526  cat redhat-release
+  527  cd redhat-release
+  528  ls -l
+  529  cd ..
+  530  ls
+  531  cd ..
+  532  ls
+  533  cd ..
+  534  ls
+  535  cd Assignment1
+  536  exit
+  537  ls
+  538  mkdir cs131/Assignment1
+  539  cd Assignment1
+  540  cd 131
+  541  cd cs131
+  542  cd Assignment1
+  543  clear
+  544  script -a cmds.log
+  545  rm cmds.log
+  546  clear
+  547  script -a cmds.log
+  548  cd ..
+  549  git status
+  550  git add "Assignment1"
+  551  git commit -m "Assignment 1"
+  552  git push 
+  553  git pull
+  554  ls
+  555  git add "Assignment1"
+  556  git commit -m "Assignment 1"
+  557  git push
+  558  ls
+  559  rmdir myDir 
+  560  rmdir myDir
+  561  rmdir myDir2
+  562  rmdir myDir3
+  563  rm -rf myDir3/
+  564  ls
+  565  exist
+  566  exit
+  567  ls
+  568  cd Assignment1
+  569  ..
+  570  cd cs131
+  571  cd ..
+  572  cd Assignment1
+  573  clear
+  574  ls
+  575  cd cs131
+  576  ls
+  577  cd Assignment1
+  578  script -a cmds.log
+  579  rm cmds.log
+  580  clear
+  581  script -a cmds.log
+  582  echo $SHELL
+  583  echo $SHELL >> Assignment1.txt
+  584  echo $HOME
+  585  echo $HOME >> Assignment1.txt
+  586  id
+  587  id >> Assignment1.txt
+  588  group fnusp24
+  589  groups fnusp24
+  590  groups fnusp24 >> Assignment1.txt
+  591  mkdir myDir
+  592  chmod u-w myDir
+  593  cd myDir
+  594  ls
+  595  ls-l
+  596  vi files.txt
+  597  vi files.rxt
+  598  vi files.txt
+  599  mkdir myDir2
+  600  cd ..
+  601  cd Assignment1
+  602  ls
+  603  cd..
+  604  cd ..
+  605  cd Assignment1
+  606  mkdir myDir2
+  607  mkdir myDir3
+  608  cd myDir2
+  609  vi myfille.txt
+  610  mv myfille.txt ../myDir3/
+  611  ls
+  612  cd ..
+  613  mv myfille.txt ../myDir3
+  614  mv myfille.txt ../myDir3/
+  615  cd myDir2
+  616  ls
+  617  vi fille.txt
+  618  mv myDir2/myfille.txt myDir2/myDir3/
+  619  vi myfilee.txt
+  620  x myfilee.txt ../myDir3/
+  621  mv myfilee.txt ../myDir3
+  622  rm filee.txt
+  623  rm myfilee.txt
+  624  cd .. 
+  625  ls
+  626  mv myfille.txt >> myDir3
+  627  echo $SHELL
+  628  echo $SHELL >> Assignment1.txt
+  629  echo $HOME >> Assignment1.txt
+  630  id
+  631  id >> Assignment1.txt
+  632  whoami
+  633  groups fnusp24
+  634  groups fnusp24 >> Assignment1.txt
+  635  mkdir myDir
+  636  chmod u-w myDir
+  637  cd myDir
+  638  ls
+  639  ls-l
+  640  ls myDir
+  641  touch myDir/test.txt
+  642  vi test.txt
+  643  cd ..
+  644  cd Assignment1
+  645  cd ..
+  646  cd Assignment1
+  647  ls
+  648  mkdir myDir2
+  649  mkdir myDir3
+  650  cd myDir2
+  651  vi myFile.txt
+  652  mv myFile.txt ../myDir3/
+  653  ls
+  654  vi MyFile.txt
+  655  mv MyFile.txt ../myDir3/
+  656  rm MyFile.txt
+  657  mv MyFile >> myDir3
+  658  cd ..
+  659  ls
+  660  mv myFile.txt ../myDir3/
+  661  exit
+  662  ls
+  663  cd cs131
+  664  cd Assignment1
+  665  ls
+  666  rmdir myDir | myDir2 | myDir3
+  667  ls
+  668  rmdir myDir2
+  669  rm -rf myDir2/
+  670  rm -rf myDir3/
+  671  ls
+  672  rm Assignment1.txt
+  673  ls
+  674  exist
+  675  exit
+  676  id 
+  677  id >> anon.txt
+  678  ls
+  679  exit
+  680  ls
+  681  cd cs131
+  682  cd Assignment1
+  683  ls
+  684  rmdir myDir
+  685  rmdir myDir2
+  686  rmdir myDir3
+  687  ls
+  688  rm Assignment1.txt
+  689  ls
+  690  exist
+  691  script -a cmds.log
+  692  echo $SHELL
+  693  echo $SHELL >> Assignment1.txt
+  694  echo $HOME  >> Assignment1.txt
+  695  id
+  696  id >> Assignment1.txt
+  697  groups fnusp24
+  698  groups fnusp24 >> Assignment1.txt
+  699  mkdir myDir
+  700  chmod u-w myDir
+  701  cd myDir
+  702  ls
+  703  ls-l
+  704  vi human.txt
+  705  cd ..
+  706  cd Assignment1
+  707  cd ..
+  708  cd Assignment1
+  709  ls
+  710  mkdir myDir2
+  711  mkdir myDir3
+  712  cd myDir2
+  713  ls
+  714  vi mineFile.txt
+  715  mv mineFile.txt ../myDir3/
+  716  free -m
+  717  free -m >> Assignment1.txt
+  718  cat /etc/*release*
+  719  cat /etc/*release* >> Assignment1.txt
+  720  ls -l /etc/os-release
+  721  ls -l /etc/os-release >> Assignment1.txt
+  722  cat Assignment1.txt
+  723  exit
+  724  cd cs131
+  725  cd Assignment1
+  726  script -a cmds.log
+  727  rm cmds.log
+  728  clear
+  729  script -a cmds.log
+  730  cd .. 
+  731  git status
+  732  git add "Assignment1"
+  733  git commit -m "Assignment 1"
+  734  git push
+  735  ls
+  736  pwd
+  737  cd cs131
+  738  mkdir Assignment2
+  739  cd ..
+  740  cd Assignment2
+  741  cd ..
+  742  cd Assignment2
+  743  ls
+  744  cd cs131
+  745  cd ..
+  746  ls
+  747  cd cs131
+  748  ls
+  749  cd cs131
+  750  ls
+  751  ls
+  752  cd 131
+  753  cd cs131
+  754  cd 131
+  755  cd cs131
+  756  cd .. 
+  757  cd Assignment2
+  758  cd cs131
+  759  ls
+  760  cd ..
+  761  Assignment2
+  762  cd cs131
+  763  cd Assignment2
+  764  clear
+  765  ls
+  766  cd cs131
+  767  ls
+  768  find /etc -type f > one.txt 2> two.txt
+  769  cat one.txt
+  770  exit
+  771  cd cs131
+  772  ls
+  773  find /etc -type f > one.txt 2> two.txt
+  774  ls
+  775  clear
+  776  ls
+  777  cd Assignment2
+  778  find /etc -type f > one.txt 2> two.txt
+  779  ls
+  780  cat one.txt
+  781  cat two.txt
+  782  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  783  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  784  ls
+  785  ps -u fnuhasham
+  786  vi file.txt
+  787  pidof systemd
+  788  vi Assignment2.txt
+  789  vi Assignments2.txt
+  790  vi Assignmentss2.txt
+  791  whoami
+  792  ps -u fnusp24
+  793  c
+  794  ls
+  795  c
+  796  ls
+  797  cd cs131
+  798  ls
+  799  rmdir Assignment2
+  800  rm -f Assignment2
+  801  rm -rf Assignment2
+  802  ls
+  803  rm- rf one.txt
+  804  rm -f one.txt
+  805  rm -f two.txt
+  806  ls
+  807  mkdir Assignment2
+  808  cd Assignment2
+  809  ls
+  810  find /etc -type f > one.txt 2> two.txt
+  811  ls
+  812  cat one.txt
+  813  cat two.txt
+  814  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  815  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  816  whoami
+  817  ps -u fnusp24
+  818  vi Assignmentss.txt
+  819  vi file.txt
+  820  pgrep systemd
+  821  vi Assignmentss2.txt
+  822  rm -f Assignmentss2.txt
+  823  vi Assignment2.txt
+  824  ls
+  825  exit
+  826  script cmds.log
+  827  cat cmds.log 
+  828  vi Assignment2.txt
+  829  vi Assignemnt2.txt
+  830  cat two.txt
+  831  vi Assignment2.txt
+  832  cat two.txt
+  833  ls
+  834  cd Assignment2
+  835  cd cs131
+  836  cd Assignment2
+  837  cat two.txt
+  838  vi Assignment2.txt
+  839  pgrep systemd
+  840  vi Assignment2.txt
+  841  exit
+  842  ps -u fnusp24
+  843  cat cmds.log
+  844  cp cmds.log cs131/Assignment2/
+  845  cd cs131/Assignment2
+  846  ls
+  847  cd ..
+  848  git add .
+  849  git commit -m "Assignmnt 2"
+  850  git push
+  851  ls
+  852  cd cs131
+  853  ls
+  854  mkdir Worksheet3
+  855  cd Worksheet3
+  856  ls
+  857  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  858  vi 'Global YouTube Statistics.csv'
+  859  exit
+  860  script cmds.log
+  861  ls
+  862  cd cs131
+  863  ls
+  864  cd Worksheet3
+  865  ls
+  866  rn -f 'Global YouTube Statistics.csv'
+  867  rm -f 'Global YouTube Statistics.csv'
+  868  ls
+  869  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  870  vi wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  871  cat wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  872  cd cs131
+  873  ls
+  874  cd Worksheet3
+  875  ls
+  876  vi 'Global YouTube Statistics.csv'
+  877  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1 > ws3.txt
+  878  vi 'Global YouTube Statistics.csv'
+  879  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1 >> ws3.txt
+  880  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1 >> ws3.txt
+  881  vi ws3.txt
+  882  sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Sports' | head -n 1 >> ws3.txt
+  883  sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Education' | head -n 1 >> ws3.txt
+  884  sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Entertainment' | head -n 1 >> ws3.txt
+  885  vi ws3.txt
+  886  history > cmds.log
+  887  exit
+  888  script cmds.log
+  889  cp cmds.log cs131/Worksheet3/
+  890  cd cs131/Worksheet3
+  891  ls
+  892  cd ..
+  893  git add .
+  894  git commit -m "Worksheet3"
+  895  git push
+  896  git push 
+  897  git push
+  898  git fetch origin main:tmp
+  899  git fetch origin 
+  900  git rebase
+  901  git push
+  902  alias l='ls -ltr'
+  903  alias w= "ls-l|wc"
+  904  alias w= 'ls-l|wc'
+  905  alias w='ls -l | wc'
+  906  source ~/.bash_profile
+  907  exit
+  908  ls
+  909  script ws4.txt
+  910  vi ~/.bash_profile
+  911  source ~/.bash_profile
+  912  vi ~/.bash_profile
+  913  source ~/.bash_profile
+  914  l
+  915  w
+  916  pwd
+  917  cd Worksheet4
+  918  ls
+  919  mkdir Worksheet4
+  920  ls
+  921  cd Worksheet4
+  922  ls
+  923  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  924  mkdir Subscribers
+  925  ls
+  926  awk -F ',' '$8=="United States" {print $3}' 'Global YouTube Statistics.csv' > us.txt
+  927  ls
+  928  awk -F ',' '$8=="India" {print $3}' 'Global YouTube Statistics.csv' > india.txt
+  929  ls
+  930  mean_india=$(awk '{ total += $1; count++ } END { print total / count }' india.txt)
+  931  mean_us=$(awk '{ total += $1; count++ } END { print total / count }' us.txt)
+  932  echo "Mean India: $mean_india" > ws4_means.txt
+  933  echo "Mean US: $mean_us" >> ws4_means.txt
+  934  vi greetings.txt
+  935  sed 's/Hello/Hi/g' greetings.txt
+  936  sed 's/Doe/d' greetings.txt
+  937  sed '/Doe/d' greetings.txt
+  938  ed -i 's/$/ (edited)/' greetings.txt
+  939  sed -i 's/$/ (edited)/' greetings.txt
+  940  sed -i '/^Hello,/{s/Michael Johnson/Mike Johnson/}' greetings.txt
+  941  vi greetings.txt
+  942  exit
+  943  ls
+  944  script Ws4.txt
+  945  git add .
+  946  git status
+  947  git commit -m "Worksheet 4 completed"
+  948  git push
+  949  git push origin master
+  950  ls
+  951  cd cs131
+  952  ls
+  953  cd ..
+  954  mv Worksheet4 cs131/
+  955  cd cs131/
+  956  git add .
+  957  git commit -m "Worksheet 4"
+  958  git push
+  959  git push 
+  960  git push
+  961  cd 131
+  962  cd cs131
+  963  git push
+  964  git push origin master
+  965  origin master
+  966  git push origin master
+  967  git pull
+  968  git push origin master
+  969  cd ..
+  970  ls
+  971  cat cmds.log 
+  972  ls
+  973  cd cs131/
+  974  ls
+  975  history
+  976  history > Worksheet4/cmds.log
+  977  git add .
+  978  git commit -m "log file added"
+  979  git push origin master
+  980  ls
+  981  script cmds.log
+  982  ls
+  983  script Assignment3
+  984  mkdir Assignment3
+  985  cd Assignment3
+  986  cd cs131
+  987  ls
+  988  mkdir Assignment3
+  989  ls
+  990  cd..
+  991  cd ..
+  992  cd Assignment3
+  993  ls
+  994  cd cs131
+  995  cd Assignment3
+  996  ls
+  997  cd cs131
+  998  ls
+  999  cd Assignment3
+ 1000  ls
+ 1001  vi Assignment3.txt
+ 1002  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+ 1003  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+ 1004  wc -l last.fake >> Assignment3.txt
+ 1005  grep 'sp24' last.fake > lastsp24.fake
+ 1006  wc -l lastsp24.fake >> Assignment3.txt
+ 1007* 
+ 1008  awk '$7 ~ /23:|00:|01:|02:|03:|04:/ {print $1}' lastsp24.fake | sort -u | \awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt
+ 1009  awk '$7 ~ /05:|06:|07:|08:|09:/ {print $1}' lastsp24.fake | sort -u | awk 'BEGIN{print "Early Birds List:"} {print} END{print "Early Birds are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt
+ 1010  awk '$1 ~ /^t/ {print}' lastsp24.fake >> Assignment3.txt
+ 1011  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3.txt
+ 1012  sed 's/[[:alnum:]]//g' passwd.fake | sort -u >> Assignment3.txt
+ 1013  vi Assignment3
+ 1014  vi Assignment.txt
+ 1015  vi Assignment3.txt
+ 1016  history > cmds.log
