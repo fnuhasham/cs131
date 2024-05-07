@@ -1,5 +1,6 @@
-   83 Worksheetss5/United States/Music.txt
-  112 Worksheetss5/United States/Entertainment.txt
-   26 Worksheetss5/United States/Gaming.txt
-   27 Worksheetss5/United States/Comedy.txt
-  248 total
+Total record counts in each file:
+Music: 83
+Entertainment:112
+Gaming: 26
+Comedy :27
+248 total
